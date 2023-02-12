@@ -1,7 +1,0 @@
-Download libs at https://p5js.org/download/
-
-Libs:
-
-p5.js
-p5.sound.js
-p5.sound.min.js
