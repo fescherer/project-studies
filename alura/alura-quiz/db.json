@@ -1,0 +1,84 @@
+{
+    "bg": "https://wallup.net/wp-content/uploads/2015/07/Cat-head-on-the-desk.jpg",
+    "title": "Animal Quiz",
+    "description": "Você acha que conhece a fauna do nosso planeta? Então prove respondendo esse quiz",
+    "questions": [
+      {
+        "image": "https://media.giphy.com/media/dKNou2IQj7vm2kB9fX/giphy.gif",
+        "title": "Quantas espécies de felinos existem atualmente no mundo?",
+        "description": "Alguns felinos são bem comuns, porém você sabe dizer quantas espécies existem?",
+        "answer": 0,
+        "alternatives": [
+          "41",
+          "40",
+          "18 milhões",
+          "38"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/JhpDQpQhBOlTW/giphy.gif",
+        "title": "Quais desses é o maior crocodilo",
+        "description": "Tanto em tamanho quanto em peso",
+        "answer": 0,
+        "alternatives": [
+           "Crocodilo-de-água-salgada",
+           "Crocodilo-persa",
+           "Crocodilo-americano",
+           "Crocodilo-do-orinoco"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/KCetsAmkqjvNYIZMaL/giphy.gif",
+        "title": "Qual a cor da pele de um urso polar",
+        "description": "Será que essa pergunta é pegadinha?",
+        "answer": 1,
+        "alternatives": [
+           "Rosa",
+           "Preta",
+           "Laranja",
+           "Branca"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/l0HlFOlbKxx1BjzO0/giphy.gif",
+        "title": "Qual o único mamífero que põe ovo?",
+        "description": "Bem facil",
+        "answer": 3,
+        "alternatives": [
+           "Coelho",
+           "Rato-toupeira-pelado",
+           "Morcego",
+           "Ornitorrinco"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/qvuIkBneOp8kM/giphy.gif",
+        "title": "Quantos litros de água um dromedário/camelo pode beber de uma vez só?",
+        "description": "dromedário e camelo têm difereças, porém a resposta é a mesma",
+        "answer": 1,
+        "alternatives": [
+           "40 litros",
+           "100 litros",
+           "160 litros",
+           "200 litros"
+        ]
+      }
+    ],
+    "external": [
+      "https://aluraquiz-base.alura-challenges.vercel.app/",
+      "https://amaterasu-qz.graxz.vercel.app/",
+      "https://quiz-noticia-verdadeira.biacoelho.vercel.app/",
+      "https://aluraquiz-git-main.itsjessmenezes.vercel.app/"
+    ],
+    "theme": {
+      "colors": {
+        "primary": "#583C87",
+        "secondary": "#270d52",
+        "mainBg": "#171B35",
+        "contrastText": "#FFFFFF",
+        "wrong": "#FF5722",
+        "success": "#4CAF50"
+      },
+      "borderRadius": "4px"
+    }
+  }
