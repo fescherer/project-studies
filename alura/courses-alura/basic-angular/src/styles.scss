@@ -1,0 +1,27 @@
+:root {
+  --primary: #f25211;
+  --secondary: #2e9e2a;
+  --padding: 15px;
+  --gray: #4f524f;
+  --light-gray: #dedede;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
