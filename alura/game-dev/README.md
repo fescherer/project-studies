@@ -1,7 +1,3 @@
-# GameDevImersaoAlura
-
-This was a runner game project developed in June, 22, 2020 - June, 26, 2020.
-
 <a name="readme-top"></a>
 
 <div align="center">
@@ -17,10 +13,10 @@ This was a runner game project developed in June, 22, 2020 - June, 26, 2020.
     <img src="https://user-images.githubusercontent.com/62115215/218337222-54c45669-88a9-47a4-a238-2806ac25a739.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project-studies NextJS StyledComponents</h3>
+<h3 align="center">Game Dev</h3>
 
 <p align="center">
-This project is a project-studies for my NextJS projects
+This is a runner game made with [p5](https://p5js.org)
 <br />
 <a href="https://github.com/ofelipescherer/project-studies"><strong>Explore the docs »</strong></a>
 <br />
@@ -51,7 +47,9 @@ This project is a project-studies for my NextJS projects
 
 ## 🎲 About 🎲
 
-This project is a project-studies for NextJS projects, here are included Styled Components, theme config, phosphor icons and Typescript. Feel free to use and modify as you want.
+This was a runner game project developed in June, 22, 2020 - June, 26, 2020.
+
+The very first javascript project made by me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,12 +61,8 @@ This project is a project-studies for NextJS projects, here are included Styled 
 
 <div align="center">
 
-[![Next][next.js]][next-url]
-[![React][react.js]][react-url]
-[![HTML 5][html 5]][html-url]
-[![CSS 3][css 3]][css-url]
-[![Typescript][typescript]][typescript-url]
-[![Styled Components][styled components]][styled-components-url]
+[![Javascript][javascript]][javascript-url]
+[![P5][p5]][p5-url]
 
 </div>
 
@@ -82,13 +76,6 @@ This project is a project-studies for NextJS projects, here are included Styled 
 
 To get this project up and running locally on your pc, follow the steps:
 
-### Pre requisites
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
 1. Clone the repo
@@ -98,13 +85,8 @@ To get this project up and running locally on your pc, follow the steps:
 2. Go to project's folder
 
 ```sh
-cd alura/alura-quiz
+cd alura/game-dev
 ```
-
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +96,7 @@ cd alura/alura-quiz
 
 ## 🙋 How to use 🙋
 
-T
+This
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -246,15 +228,7 @@ My thanks to the incredible instructors of this immersion. <3
 [youtube-url]: https://www.youtube.com/channel/UCySqmz_Rohnl53VLoNQsnKg
 [github-shield]: https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white
 [github-url]: https://github.com/ofelipescherer
-[next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[next-url]: https://nextjs.org/
-[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[react-url]: https://reactjs.org/
-[html 5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-[html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
-[css 3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-[css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
-[typescript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
-[typescript-url]: https://www.typescriptlang.org
-[styled components]: https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white
-[styled-components-url]: https://styled-components.com
+[javascript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[javascript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[p5]: https://img.shields.io/badge/p5.js-ED225D?style=for-the-badge&logo=p5.js&logoColor=FFFFFF
+[p5-url]: https://p5js.org

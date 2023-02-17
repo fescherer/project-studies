@@ -1,43 +1,121 @@
-# Move IT :walking:
+<a name="readme-top"></a>
 
-> **Move IT consiste em uma aplicação que ajuda pessoas que ficam muito tempo no computador.**
+<div align="center">
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+  <br />
+  <a href="https://github.com/ofelipescherer/project-studies">
+    <img src="https://user-images.githubusercontent.com/62115215/218337222-54c45669-88a9-47a4-a238-2806ac25a739.png" alt="Logo" width="80" height="80">
+  </a>
+
+<h3 align="center">Move It</h3>
+
+<p align="center">
+A pomodoro reimagination
+<br />
+<a href="https://github.com/ofelipescherer/project-studies"><strong>Explore the docs »</strong></a>
+<br />
+<br />
+<a href="#about">About</a>
+•
+<a href="#stack">Build With</a>
+•
+<a href="#install">Getting Started</a>
+•
+<a href="#usage">How to use</a>
+•
+<a href="#issue">Report Bug / Request Feature</a>
+•
+<a href="#contributing">Contributing</a>
+•
+<a href="#contributors">Contributors</a>
+•
+<a href="#license">License</a>
+•
+<a href="#contact">Contact me</a>
+</p>
+</div>
+
+<!-- **********************🐲About🐲********************** -->
+
+<a name="about"></a>
+
+## 🚶 About 🚶
 
 A cada **30 minutos** a aplicação lhe dá um exercício simples para previnir possiveis problemas de _articulações_, _coluna_ ou _olhos_, que são muito comuns de serem desenvolvidos caso a pessoa fique muito tempo na frente do computador parado.
 
 A aplicação foi desenvolvida em estilo _RPG_ , em que a cada desafio(exercício) completado, é concedido ao usuário experiência ou _xp_. Caso a quantidade de xp seja suficiente, o usuário poderá subir de nível. Essa mecânica foi adicionada com o intuito de incentivar a prática desses exercícios simples, mas muito importantes.
 
-## História :blue_book:
-
 A aplicação foi desenvolvida durante a semana **Next Level Week #04** ou **NLW #04**. Nela, [Diego Fernandes](https://twitter.com/dieegosf) ensinou conceitos de React e Next JS. O principal deles para mim foi de como usar **_Contexts_** que são ferramentas que facilitam a conversa entre componentes.
 
 Agradeço muito a todos da [Rockeseat](https://rocketseat.com.br), em especial [Diego Fernandes](https://twitter.com/dieegosf), por me proporcionar essa semana incrível com muito conteúdo sobre React e Next.
 
-## Tecnologias utilizadas :computer:
+[Vercel's Deploy](https://alura-quiz.ofelipescherer.vercel.app)
 
-- [React JS](https://reactjs.org)
-- [Next JS](https://nextjs.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [js-cookie](https://www.npmjs.com/package/js-cookie)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Como rodar o projeto localmente :open_file_folder:
+<!-- **********************🐲Built With🐲********************** -->
 
-Para testar a aplicação localmente você precisa clonar o repositório. Em seu git bash use
+<a name="stack"></a>
 
-> git clone https://github.com/ofelipescherer/nlw04.git
+## 💻 Built With 💻
 
-Em seguida precisamos instalar o pacote npm. Caso tenha o node instalado utilize
+<div align="center">
 
-> npm install
+[![Next][next.js]][next-url]
+[![React][react.js]][react-url]
+[![HTML 5][html 5]][html-url]
+[![CSS 3][css 3]][css-url]
+[![Typescript][typescript]][typescript-url]
 
-Para iniciar o projeto utilize
+</div>
 
-> npm run dev
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Pronto :smile: Agora é só abrir o navegador no endereço
+<!-- **********************🐲Getting Started🐲********************** -->
 
-> http://localhost:3000/
+<a name="install"></a>
 
-## Como usar :raising_hand:
+## 🚂 Getting Started 🚂
+
+To get this project up and running locally on your pc, follow the steps:
+
+### Pre requisites
+
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ofelipescherer/project-studies.git
+   ```
+2. Go to project's folder
+
+```sh
+cd rocketseat/nlw-04-move-it
+```
+
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲How to use🐲********************** -->
+
+<a name="usage"></a>
+
+## 🙋 How to use 🙋
 
 Na tela incial, será pedido seu nome no github
 
@@ -84,151 +162,6 @@ Após ganhar experiência, você pode subir de level. Até que level você conse
 
 > Level 2 alcançado 👏
 
-<a name="readme-top"></a>
-
-<div align="center">
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-  <br />
-  <a href="https://github.com/ofelipescherer/boilerplate">
-    <img src="https://user-images.githubusercontent.com/62115215/218337222-54c45669-88a9-47a4-a238-2806ac25a739.png" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">BoilerPlate NextJS StyledComponents</h3>
-
-<p align="center">
-This project is a boilerplate for my NextJS projects
-<br />
-<a href="https://github.com/ofelipescherer/boilerplate"><strong>Explore the docs »</strong></a>
-<br />
-<br />
-<a href="#about">About</a>
-•
-<a href="#stack">Build With</a>
-•
-<a href="#install">Getting Started</a>
-•
-<a href="#usage">How to use</a>
-•
-<a href="#issue">Report Bug / Request Feature</a>
-•
-<a href="#contributing">Contributing</a>
-•
-<a href="#contributors">Contributors</a>
-•
-<a href="#license">License</a>
-•
-<a href="#contact">Contact me</a>
-</p>
-</div>
-
-<!-- **********************🐲About🐲********************** -->
-
-<a name="about"></a>
-
-## 🎲 About 🎲
-
-This project is a boilerplate for NextJS projects, here are included Styled Components, theme config, phosphor icons and Typescript. Feel free to use and modify as you want.
-
-[Vercel's Deploy](https://alura-quiz.ofelipescherer.vercel.app)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- **********************🐲Built With🐲********************** -->
-
-<a name="stack"></a>
-
-## 💻 Built With 💻
-
-<div align="center">
-
-[![Next][next.js]][next-url]
-[![React][react.js]][react-url]
-[![HTML 5][html 5]][html-url]
-[![CSS 3][css 3]][css-url]
-[![Typescript][typescript]][typescript-url]
-[![Styled Components][styled components]][styled-components-url]
-
-</div>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- **********************🐲Getting Started🐲********************** -->
-
-<a name="install"></a>
-
-## 🚂 Getting Started 🚂
-
-To get this project up and running locally on your pc, follow the steps:
-
-### Pre requisites
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/ofelipescherer/project-studies.git
-   ```
-2. Go to project's folder
-
-```sh
-cd alura/alura-quiz
-```
-
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- **********************🐲How to use🐲********************** -->
-
-<a name="usage"></a>
-
-## 🙋 How to use 🙋
-
-T
-
-```json
-{
-  "bg": "",
-  "title": "",
-  "description": "",
-  "questions": [
-    {
-      "image": "",
-      "title": "",
-      "description": "",
-      "answer": 0,
-      "alternatives": ["", "", "", ""]
-    }
-  ],
-  "external": [""],
-  "theme": {
-    "colors": {
-      "primary": "",
-      "secondary": "#",
-      "mainBg": "",
-      "contrastText": "",
-      "wrong": "",
-      "success": ""
-    },
-    "borderRadius": "4px"
-  }
-}
-```
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- **********************🐲Report Bug / Request Feature🐲********************** -->
@@ -237,7 +170,7 @@ T
 
 ## 🐞 Report Bug / Request Feature 🐞
 
-If you found a bug or want to request a feature, you can open an [issue](https://github.com/ofelipescherer/boilerplate/issues)
+If you found a bug or want to request a feature, you can open an [issue](https://github.com/ofelipescherer/project-studies/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -322,26 +255,10 @@ My thanks to the incredible instructors of this immersion. <3
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/omariosouto">
-        <img src="https://avatars.githubusercontent.com/omariosouto" width="100px;" alt="Mario Souto Picture"/><br>
+      <a href="https://github.com/diego3g">
+        <img src="https://avatars.githubusercontent.com/diego3g" width="100px;" alt="Diego Fernandes"/><br>
         <sub>
-          <b>Mario Souto</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/JulianaAmoasei">
-        <img src="https://avatars.githubusercontent.com/JulianaAmoasei" width="100px;" alt="Juliana Amoasei Picture"/><br>
-        <sub>
-          <b>Juliana Amoasei</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/peas">
-        <img src="https://avatars.githubusercontent.com/peas" width="100px;" alt="Paulo Silveira Picture"/><br>
-        <sub>
-          <b>Paulo Silveira</b>
+          <b>Diego Fernandes</b>
         </sub>
       </a>
     </td>
@@ -352,16 +269,16 @@ My thanks to the incredible instructors of this immersion. <3
 
 <!-- Badges and Badges Link -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/boilerplate.svg?style=for-the-badge
-[contributors-url]: https://github.com/ofelipescherer/boilerplate/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ofelipescherer/boilerplate.svg?style=for-the-badge
-[forks-url]: https://github.com/ofelipescherer/boilerplate/network/members
-[stars-shield]: https://img.shields.io/github/stars/ofelipescherer/boilerplate.svg?style=for-the-badge
-[stars-url]: https://github.com/ofelipescherer/boilerplate/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ofelipescherer/boilerplate.svg?style=for-the-badge
-[issues-url]: https://github.com/ofelipescherer/boilerplate/issues
-[license-shield]: https://img.shields.io/github/license/ofelipescherer/boilerplate.svg?style=for-the-badge
-[license-url]: https://github.com/ofelipescherer/boilerplate/blob/master/LICENSE.md
+[contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/project-studies.svg?style=for-the-badge
+[contributors-url]: https://github.com/ofelipescherer/project-studies/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ofelipescherer/project-studies.svg?style=for-the-badge
+[forks-url]: https://github.com/ofelipescherer/project-studies/network/members
+[stars-shield]: https://img.shields.io/github/stars/ofelipescherer/project-studies.svg?style=for-the-badge
+[stars-url]: https://github.com/ofelipescherer/project-studies/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ofelipescherer/project-studies.svg?style=for-the-badge
+[issues-url]: https://github.com/ofelipescherer/project-studies/issues
+[license-shield]: https://img.shields.io/github/license/ofelipescherer/project-studies.svg?style=for-the-badge
+[license-url]: https://github.com/ofelipescherer/project-studies/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0E76A8
 [linkedin-url]: https://www.linkedin.com/in/ofelipescherer
 [youtube-shield]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
@@ -378,5 +295,3 @@ My thanks to the incredible instructors of this immersion. <3
 [css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [typescript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 [typescript-url]: https://www.typescriptlang.org
-[styled components]: https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white
-[styled-components-url]: https://styled-components.com

@@ -9,16 +9,16 @@
 [![MIT License][license-shield]][license-url]
 
   <br />
-  <a href="https://github.com/ofelipescherer/boilerplate">
+  <a href="https://github.com/ofelipescherer/project-studies">
     <img src="https://user-images.githubusercontent.com/62115215/218337222-54c45669-88a9-47a4-a238-2806ac25a739.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">BoilerPlate NextJS StyledComponents</h3>
+<h3 align="center">project-studies NextJS StyledComponents</h3>
 
 <p align="center">
-This project is a boilerplate for my NextJS projects
+This project is a project-studies for my NextJS projects
 <br />
-<a href="https://github.com/ofelipescherer/boilerplate"><strong>Explore the docs »</strong></a>
+<a href="https://github.com/ofelipescherer/project-studies"><strong>Explore the docs »</strong></a>
 <br />
 <br />
 <a href="#about">About</a>
@@ -47,7 +47,7 @@ This project is a boilerplate for my NextJS projects
 
 ## 🎲 About 🎲
 
-This project is a boilerplate for NextJS projects, here are included Styled Components, theme config, phosphor icons and Typescript. Feel free to use and modify as you want.
+This project is a project-studies for NextJS projects, here are included Styled Components, theme config, phosphor icons and Typescript. Feel free to use and modify as you want.
 
 [Vercel's Deploy](https://alura-quiz.ofelipescherer.vercel.app)
 
@@ -151,7 +151,7 @@ T
 
 ## 🐞 Report Bug / Request Feature 🐞
 
-If you found a bug or want to request a feature, you can open an [issue](https://github.com/ofelipescherer/boilerplate/issues)
+If you found a bug or want to request a feature, you can open an [issue](https://github.com/ofelipescherer/project-studies/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -266,16 +266,16 @@ My thanks to the incredible instructors of this immersion. <3
 
 <!-- Badges and Badges Link -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/boilerplate.svg?style=for-the-badge
-[contributors-url]: https://github.com/ofelipescherer/boilerplate/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ofelipescherer/boilerplate.svg?style=for-the-badge
-[forks-url]: https://github.com/ofelipescherer/boilerplate/network/members
-[stars-shield]: https://img.shields.io/github/stars/ofelipescherer/boilerplate.svg?style=for-the-badge
-[stars-url]: https://github.com/ofelipescherer/boilerplate/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ofelipescherer/boilerplate.svg?style=for-the-badge
-[issues-url]: https://github.com/ofelipescherer/boilerplate/issues
-[license-shield]: https://img.shields.io/github/license/ofelipescherer/boilerplate.svg?style=for-the-badge
-[license-url]: https://github.com/ofelipescherer/boilerplate/blob/master/LICENSE.md
+[contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/project-studies.svg?style=for-the-badge
+[contributors-url]: https://github.com/ofelipescherer/project-studies/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ofelipescherer/project-studies.svg?style=for-the-badge
+[forks-url]: https://github.com/ofelipescherer/project-studies/network/members
+[stars-shield]: https://img.shields.io/github/stars/ofelipescherer/project-studies.svg?style=for-the-badge
+[stars-url]: https://github.com/ofelipescherer/project-studies/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ofelipescherer/project-studies.svg?style=for-the-badge
+[issues-url]: https://github.com/ofelipescherer/project-studies/issues
+[license-shield]: https://img.shields.io/github/license/ofelipescherer/project-studies.svg?style=for-the-badge
+[license-url]: https://github.com/ofelipescherer/project-studies/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0E76A8
 [linkedin-url]: https://www.linkedin.com/in/ofelipescherer
 [youtube-shield]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
