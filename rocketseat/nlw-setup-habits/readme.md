@@ -13,10 +13,10 @@
     <img src="https://user-images.githubusercontent.com/62115215/218337222-54c45669-88a9-47a4-a238-2806ac25a739.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project-studies NextJS StyledComponents</h3>
+<h3 align="center">Habits</h3>
 
 <p align="center">
-This project is a project-studies for my NextJS projects
+A managment life app
 <br />
 <a href="https://github.com/ofelipescherer/project-studies"><strong>Explore the docs »</strong></a>
 <br />
@@ -49,8 +49,6 @@ This project is a project-studies for my NextJS projects
 
 This project is a project-studies for NextJS projects, here are included Styled Components, theme config, phosphor icons and Typescript. Feel free to use and modify as you want.
 
-[Vercel's Deploy](https://alura-quiz.ofelipescherer.vercel.app)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- **********************🐲Built With🐲********************** -->
@@ -61,12 +59,10 @@ This project is a project-studies for NextJS projects, here are included Styled 
 
 <div align="center">
 
-[![Next][next.js]][next-url]
 [![React][react.js]][react-url]
 [![HTML 5][html 5]][html-url]
 [![CSS 3][css 3]][css-url]
 [![Typescript][typescript]][typescript-url]
-[![Styled Components][styled components]][styled-components-url]
 
 </div>
 
@@ -96,7 +92,7 @@ To get this project up and running locally on your pc, follow the steps:
 2. Go to project's folder
 
 ```sh
-cd alura/alura-quiz
+cd rocketseat/nlw-setup-habits
 ```
 
 3. Install NPM packages
@@ -113,35 +109,6 @@ cd alura/alura-quiz
 ## 🙋 How to use 🙋
 
 T
-
-```json
-{
-  "bg": "",
-  "title": "",
-  "description": "",
-  "questions": [
-    {
-      "image": "",
-      "title": "",
-      "description": "",
-      "answer": 0,
-      "alternatives": ["", "", "", ""]
-    }
-  ],
-  "external": [""],
-  "theme": {
-    "colors": {
-      "primary": "",
-      "secondary": "#",
-      "mainBg": "",
-      "contrastText": "",
-      "wrong": "",
-      "success": ""
-    },
-    "borderRadius": "4px"
-  }
-}
-```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,7 +128,7 @@ If you found a bug or want to request a feature, you can open an [issue](https:/
 
 ## 👋 Be part of this project 👋
 
-Contributions are extremely welcome. You can see how to make one by following the file [Contributing](CONTRIBUTING.md)
+Contributions are extremely welcome. You can see how to make one by following the file [Contributing](/CONTRIBUTING.md)
 
 And don't forget to leave a star on the project if you liked it 🤩
 
@@ -173,16 +140,7 @@ And don't forget to leave a star on the project if you liked it 🤩
 
 ## ⚖️ License ⚖️
 
-Distributed under the MIT License. See [License](LICENSE.md) for more information.
-
-Images:
-[Background image](https://wallup.net/wp-content/uploads/2015/07/Cat-head-on-the-desk.jpg)  
-[GIF Question 1](https://media.giphy.com/media/dKNou2IQj7vm2kB9fX/giphy.gif)  
-[GIF Question 2](https://media.giphy.com/media/JhpDQpQhBOlTW/giphy.gif)  
-[GIF Question 3](https://media.giphy.com/media/KCetsAmkqjvNYIZMaL/giphy.gif)  
-[GIF Question 4](https://media.giphy.com/media/l0HlFOlbKxx1BjzO0/giphy.gif)  
-[GIF Question 5](https://media.giphy.com/media/qvuIkBneOp8kM/giphy.gif)  
-[Loading animation](https://lottiefiles.com/46997-color-preloader)
+Distributed under the MIT License. See [License](/LICENSE.md) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -236,26 +194,18 @@ My thanks to the incredible instructors of this immersion. <3
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/omariosouto">
-        <img src="https://avatars.githubusercontent.com/omariosouto" width="100px;" alt="Mario Souto Picture"/><br>
+      <a href="https://github.com/diego3g">
+        <img src="https://avatars.githubusercontent.com/diego3g" width="100px;" alt="Diego Fernandes"/><br>
         <sub>
-          <b>Mario Souto</b>
+          <b>Diego Fernandes</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/JulianaAmoasei">
-        <img src="https://avatars.githubusercontent.com/JulianaAmoasei" width="100px;" alt="Juliana Amoasei Picture"/><br>
+      <a href="https://github.com/rodrigorgtic">
+        <img src="https://avatars.githubusercontent.com/rodrigorgtic" width="100px;" alt="Rodrigo Gonçalves Picture"/><br>
         <sub>
-          <b>Juliana Amoasei</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/peas">
-        <img src="https://avatars.githubusercontent.com/peas" width="100px;" alt="Paulo Silveira Picture"/><br>
-        <sub>
-          <b>Paulo Silveira</b>
+          <b>Rodrigo Gonçalves</b>
         </sub>
       </a>
     </td>
@@ -282,8 +232,6 @@ My thanks to the incredible instructors of this immersion. <3
 [youtube-url]: https://www.youtube.com/channel/UCySqmz_Rohnl53VLoNQsnKg
 [github-shield]: https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white
 [github-url]: https://github.com/ofelipescherer
-[next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[next-url]: https://nextjs.org/
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [react-url]: https://reactjs.org/
 [html 5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white

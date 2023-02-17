@@ -1,17 +1,3 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-# Introduction 💡
-
-Letmeask
-
-This project was made in Level Next Week 6 or just NLW06 by [Rocketseat](https://rocketseat.com.br)
-
-# About 📘
-
-# Objetives 📋
-
-# Run Locally 📂
-
 <a name="readme-top"></a>
 
 <div align="center">
@@ -59,7 +45,7 @@ This project is a project-studies for my NextJS projects
 
 <a name="about"></a>
 
-## 🎲 About 🎲
+## 💬 About 💬
 
 This project is a project-studies for NextJS projects, here are included Styled Components, theme config, phosphor icons and Typescript. Feel free to use and modify as you want.
 
@@ -80,7 +66,6 @@ This project is a project-studies for NextJS projects, here are included Styled 
 [![HTML 5][html 5]][html-url]
 [![CSS 3][css 3]][css-url]
 [![Typescript][typescript]][typescript-url]
-[![Styled Components][styled components]][styled-components-url]
 
 </div>
 
@@ -110,7 +95,7 @@ To get this project up and running locally on your pc, follow the steps:
 2. Go to project's folder
 
 ```sh
-cd alura/alura-quiz
+cd rocketseat
 ```
 
 3. Install NPM packages
@@ -127,35 +112,6 @@ cd alura/alura-quiz
 ## 🙋 How to use 🙋
 
 T
-
-```json
-{
-  "bg": "",
-  "title": "",
-  "description": "",
-  "questions": [
-    {
-      "image": "",
-      "title": "",
-      "description": "",
-      "answer": 0,
-      "alternatives": ["", "", "", ""]
-    }
-  ],
-  "external": [""],
-  "theme": {
-    "colors": {
-      "primary": "",
-      "secondary": "#",
-      "mainBg": "",
-      "contrastText": "",
-      "wrong": "",
-      "success": ""
-    },
-    "borderRadius": "4px"
-  }
-}
-```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -241,26 +197,10 @@ My thanks to the incredible instructors of this immersion. <3
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/omariosouto">
-        <img src="https://avatars.githubusercontent.com/omariosouto" width="100px;" alt="Mario Souto Picture"/><br>
+      <a href="https://github.com/diego3g">
+        <img src="https://avatars.githubusercontent.com/diego3g" width="100px;" alt="Diego Fernandes"/><br>
         <sub>
-          <b>Mario Souto</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/JulianaAmoasei">
-        <img src="https://avatars.githubusercontent.com/JulianaAmoasei" width="100px;" alt="Juliana Amoasei Picture"/><br>
-        <sub>
-          <b>Juliana Amoasei</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/peas">
-        <img src="https://avatars.githubusercontent.com/peas" width="100px;" alt="Paulo Silveira Picture"/><br>
-        <sub>
-          <b>Paulo Silveira</b>
+          <b>Diego Fernandes</b>
         </sub>
       </a>
     </td>
