@@ -10,7 +10,7 @@
 
   <br />
   <a href="https://github.com/ofelipescherer/project-studies">
-    <img src="https://user-images.githubusercontent.com/62115215/218337222-54c45669-88a9-47a4-a238-2806ac25a739.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/62115215/219968410-6964a109-107f-4ab5-831a-d1e96e7c709a.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Move It</h3>
@@ -55,7 +55,6 @@ A aplicação foi desenvolvida durante a semana **Next Level Week #04** ou **NLW
 
 Agradeço muito a todos da [Rockeseat](https://rocketseat.com.br), em especial [Diego Fernandes](https://twitter.com/dieegosf), por me proporcionar essa semana incrível com muito conteúdo sobre React e Next.
 
-[Vercel's Deploy](https://alura-quiz.ofelipescherer.vercel.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,7 +179,7 @@ If you found a bug or want to request a feature, you can open an [issue](https:/
 
 ## 👋 Be part of this project 👋
 
-Contributions are extremely welcome. You can see how to make one by following the file [Contributing](CONTRIBUTING.md)
+Contributions are extremely welcome. You can see how to make one by following the file [Contributing](/CONTRIBUTING.md)
 
 And don't forget to leave a star on the project if you liked it 🤩
 
@@ -192,16 +191,7 @@ And don't forget to leave a star on the project if you liked it 🤩
 
 ## ⚖️ License ⚖️
 
-Distributed under the MIT License. See [License](LICENSE.md) for more information.
-
-Images:
-[Background image](https://wallup.net/wp-content/uploads/2015/07/Cat-head-on-the-desk.jpg)  
-[GIF Question 1](https://media.giphy.com/media/dKNou2IQj7vm2kB9fX/giphy.gif)  
-[GIF Question 2](https://media.giphy.com/media/JhpDQpQhBOlTW/giphy.gif)  
-[GIF Question 3](https://media.giphy.com/media/KCetsAmkqjvNYIZMaL/giphy.gif)  
-[GIF Question 4](https://media.giphy.com/media/l0HlFOlbKxx1BjzO0/giphy.gif)  
-[GIF Question 5](https://media.giphy.com/media/qvuIkBneOp8kM/giphy.gif)  
-[Loading animation](https://lottiefiles.com/46997-color-preloader)
+Distributed under the MIT License. See [License](/LICENSE.md) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

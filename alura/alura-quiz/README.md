@@ -10,7 +10,7 @@
 
   <br />
   <a href="https://github.com/ofelipescherer/project-studies">
-    <img src="https://user-images.githubusercontent.com/62115215/218337222-54c45669-88a9-47a4-a238-2806ac25a739.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/62115215/219956718-31bdba78-4d33-487e-9e97-3bd1aab61fe8.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Alura Quiz</h3>
@@ -144,7 +144,11 @@ cd alura/alura-quiz
 
 ## 🙋 How to use 🙋
 
-Animal Quiz Alura is a simple animal quiz made with some premade questions storage at `db.json`
+Animal Quiz Alura is a simple animal quiz made with some premade questions storage at `db.json`.
+
+![Alura quiz home](https://user-images.githubusercontent.com/62115215/219958670-485e5106-d4c8-44b2-a60f-699c944db648.png)
+![Project Gif](https://user-images.githubusercontent.com/62115215/219959310-90e2fbeb-ee51-45fd-96f6-390b0588a457.gif)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

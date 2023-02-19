@@ -10,12 +10,13 @@
 
   <br />
   <a href="https://github.com/ofelipescherer/project-studies">
-    <img src="https://user-images.githubusercontent.com/62115215/218337222-54c45669-88a9-47a4-a238-2806ac25a739.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/62115215/219967984-42253ac1-0f95-45ea-86ee-d29dfe050534.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Game Dev</h3>
 
 <p align="center">
+
 This is a runner game made with [p5](https://p5js.org)
 <br />
 <a href="https://github.com/ofelipescherer/project-studies"><strong>Explore the docs »</strong></a>
@@ -96,7 +97,7 @@ cd alura/game-dev
 
 ## 🙋 How to use 🙋
 
-This
+![Project Gif](https://user-images.githubusercontent.com/62115215/219967687-18ce6ec5-966e-4180-a5d4-c156bdaab702.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -10,7 +10,7 @@
 
   <br />
   <a href="https://github.com/ofelipescherer/project-studies">
-    <img src="https://user-images.githubusercontent.com/62115215/218337222-54c45669-88a9-47a4-a238-2806ac25a739.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/62115215/219973282-91c975f0-20fc-4f96-968d-56ad31c0c01f.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Habits</h3>

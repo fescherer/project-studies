@@ -10,7 +10,7 @@
 
   <br />
   <a href="https://github.com/ofelipescherer/project-studies">
-    <img src="https://user-images.githubusercontent.com/62115215/218337222-54c45669-88a9-47a4-a238-2806ac25a739.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/62115215/219968182-03b59ee8-4bf9-490b-9c22-3dfcbac19625.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">FS Delivery</h3>
@@ -50,6 +50,8 @@ Aplicação que gerencia o sistema de entregas de pedidos de um restaurante fict
 A aplicação é dividade em três partes: O frontend web; o frontend mobile e o backend. Na parte web é onde que o cliente escolhe seu pedido e em seguida sua localização. A parte do backend é responsável por carregar o cardápio, ou seja, os produtos oferecidos. E por fim, no frontend mobile, é onde o entregador gerencia todos os pedidos que foram feitos pelo usuário.
 
 A aplicação foi desenvolvida durante a **Semana Dev Superior 2.0**. Nela, [Nélio Alves](https://www.linkedin.com/in/nelio-alves) ensinou os conceitos relacionados ao backend, usando Spring Boot, um framework de Java.
+
+[projeto](https://felipescherer-fsdelivery.netlify.app)
 
 [Washington Soares Braga](https://www.linkedin.com/in/washington-soares-braga) também foi um dos professores da semana. Ele ficou responsável pelo frontend, ensinando React, um framework de JavaScript. Porém, atualmente temos uma linguagem que nasceu a partir do JavaScript, ela se chama TypeScript, entre as principais diferenças, estão que no TypeScript, as variáveis devem ser tipadas, ou seja, devemos declarar seu tipo (int, float, boolean, etc) desse jeito, o código fica mais fácil de dar manuntenção. Por esse e outros motivos, foi decido usá-lo.
 
