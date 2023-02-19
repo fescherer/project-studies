@@ -47,7 +47,11 @@ A managment life app
 
 ## 🎲 About 🎲
 
-This project is a project-studies for NextJS projects, here are included Styled Components, theme config, phosphor icons and Typescript. Feel free to use and modify as you want.
+Setup Habits is an app made for habits managment. With it you can save and manage your habits.
+
+There is a local backend, an deployed web version and a mobile version.
+
+[Deploy](https://nlw-setup-habits-dun.vercel.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,7 +112,8 @@ cd rocketseat/nlw-setup-habits
 
 ## 🙋 How to use 🙋
 
-T
+![Home screen](https://user-images.githubusercontent.com/62115215/219977459-5a8388bf-13b3-4010-950d-95b11d5332bd.png)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

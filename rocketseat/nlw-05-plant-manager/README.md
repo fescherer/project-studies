@@ -1,9 +1,3 @@
-# nlw05-plant-manager
-
-NLW #05
-
-A project made in NLW05
-
 <a name="readme-top"></a>
 
 <div align="center">
@@ -22,6 +16,7 @@ A project made in NLW05
 <h3 align="center">Plant Manager</h3>
 
 <p align="center">
+
 App to manage/remember of your plants
 <br />
 <a href="https://github.com/ofelipescherer/project-studies"><strong>Explore the docs »</strong></a>
@@ -32,8 +27,6 @@ App to manage/remember of your plants
 <a href="#stack">Build With</a>
 •
 <a href="#install">Getting Started</a>
-•
-<a href="#usage">How to use</a>
 •
 <a href="#issue">Report Bug / Request Feature</a>
 •

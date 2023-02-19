@@ -13,10 +13,11 @@
     <img src="https://user-images.githubusercontent.com/62115215/219973173-d960555f-6d15-4604-ada7-d38065c36ffe.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project-studies NextJS StyledComponents</h3>
+<h3 align="center">Let me Ask</h3>
 
 <p align="center">
-This project is a project-studies for my NextJS projects
+
+A live chat managment app
 <br />
 <a href="https://github.com/ofelipescherer/project-studies"><strong>Explore the docs »</strong></a>
 <br />
@@ -47,9 +48,9 @@ This project is a project-studies for my NextJS projects
 
 ## 💬 About 💬
 
-This project is a project-studies for NextJS projects, here are included Styled Components, theme config, phosphor icons and Typescript. Feel free to use and modify as you want.
+This project was made for managment a livestream chat. By adding some custom preferences for the streamer decide the best options.
 
-[Vercel's Deploy](https://alura-quiz.ofelipescherer.vercel.app)
+[Deploy](https://letmeask-aulas-45172.web.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,6 +103,10 @@ cd rocketseat
    ```sh
    npm install
    ```
+4. This project uses Firebase as database, so I cannot pass my firebase credentials. If you want to run locally you need to provide your own credentials. For this:
+   4.1. Create a google account;
+   4.2. Login at [firebase site](https://firebase.google.com);
+   4.3. Create a project and get your SDK credentials;
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +116,14 @@ cd rocketseat
 
 ## 🙋 How to use 🙋
 
-T
+![Home screen](https://user-images.githubusercontent.com/62115215/219976815-47640513-1c8c-4df1-b0fb-69a38212e4dc.png)
+
+![Create room](https://user-images.githubusercontent.com/62115215/219977167-3ef523d4-20e5-42ce-9328-afe0c0d6babd.png)
+
+![Inside Room](https://user-images.githubusercontent.com/62115215/219977213-803b560e-e959-4b59-a95f-45ef966b40e7.png)
+
+![Room with questions](https://user-images.githubusercontent.com/62115215/219977261-e13586f2-bb16-40ae-b2d2-7479ecfd15d8.png)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
