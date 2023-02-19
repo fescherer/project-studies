@@ -13,10 +13,10 @@
     <img src="https://user-images.githubusercontent.com/62115215/219961073-39472345-7803-4fbf-aa84-ac3f1cc378cc.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project-studies NextJS StyledComponents</h3>
+<h3 align="center">Alura courses</h3>
 
 <p align="center">
-This project is a project-studies for my NextJS projects
+This repository contains studies from Alura
 
 <br />
 <a href="https://github.com/ofelipescherer/project-studies"><strong>Explore the docs »</strong></a>
