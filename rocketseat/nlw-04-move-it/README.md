@@ -47,13 +47,13 @@ A pomodoro reimagination
 
 ## 🚶 About 🚶
 
-A cada **30 minutos** a aplicação lhe dá um exercício simples para previnir possiveis problemas de _articulações_, _coluna_ ou _olhos_, que são muito comuns de serem desenvolvidos caso a pessoa fique muito tempo na frente do computador parado.
+Every **30 minutes** the application gives you a simple exercise to prevent possible _joints_, _spine_ or _eyes_ problems, which are very common to develop if the person spends too much time in front of the stationary computer.
 
-A aplicação foi desenvolvida em estilo _RPG_ , em que a cada desafio(exercício) completado, é concedido ao usuário experiência ou _xp_. Caso a quantidade de xp seja suficiente, o usuário poderá subir de nível. Essa mecânica foi adicionada com o intuito de incentivar a prática desses exercícios simples, mas muito importantes.
+The application was developed in _RPG_ style, in which each challenge (exercise) completed gives the user experience or _xp_. If the amount of xp is enough, the user can level up. This mechanic was added in order to encourage the practice of these simple but very important exercises.
 
-A aplicação foi desenvolvida durante a semana **Next Level Week #04** ou **NLW #04**. Nela, [Diego Fernandes](https://twitter.com/dieegosf) ensinou conceitos de React e Next JS. O principal deles para mim foi de como usar **_Contexts_** que são ferramentas que facilitam a conversa entre componentes.
+The application was developed during **Next Level Week #04** or **NLW #04**. In it, [Diego Fernandes](https://twitter.com/dieegosf) taught React and Next JS concepts. The main one for me was how to use **_Contexts_** which are tools that facilitate the conversation between components.
 
-Agradeço muito a todos da [Rockeseat](https://rocketseat.com.br), em especial [Diego Fernandes](https://twitter.com/dieegosf), por me proporcionar essa semana incrível com muito conteúdo sobre React e Next.
+I am very grateful to everyone at [Rockeseat](https://rocketseat.com.br), especially [Diego Fernandes](https://twitter.com/dieegosf), for giving me this amazing week with lots of content about React and Next.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -116,21 +116,21 @@ cd rocketseat/nlw-04-move-it
 
 ## 🙋 How to use 🙋
 
-Na tela incial, será pedido seu nome no github
+On the home screen, you will be asked for your github name
 
 ![Screenshot_1](https://user-images.githubusercontent.com/62115215/109425876-481a4280-79c9-11eb-96d0-c76415e3e69a.png)
 
-Mas não se preocupe, não é necessário criar uma conta caso não tenha uma. Apenas coloque qualquer nome ou deixe em branco. Porém caso tenha, é interessante coloca-lá pois assim, o programa consegue colocar sua imagem de perfil.
+But don't worry, you don't need to create an account if you don't have one. Just enter any name or leave it blank. But if you have, it's interesting to put it there because that way, the program can put your profile picture.
 
 ![Screenshot_3](https://user-images.githubusercontent.com/62115215/109426075-5321a280-79ca-11eb-8381-17fe74998252.png)
 
-> Imagem padão quando o programa não encontra seu perfil no Gthub
+> Default image when the program cannot find your Gthub profile
 
 ![Screenshot_2](https://user-images.githubusercontent.com/62115215/109426077-53ba3900-79ca-11eb-90c2-6a4435301556.png)
 
-> Ao colocar um nome válido, podemos extrair a foto de perfil
+> By putting a valid name, we can extract the profile picture
 
-Na próxima tela, você pode escolher o Light Mode(padão) ou o Dark Mode.
+On the next screen, you can choose Light Mode (default) or Dark Mode.
 
 ![Screenshot_4](https://user-images.githubusercontent.com/62115215/109426214-3043be00-79cb-11eb-8e37-2229f25c312f.png)
 
@@ -140,26 +140,26 @@ Na próxima tela, você pode escolher o Light Mode(padão) ou o Dark Mode.
 
 > Dark Mde
 
-Próximo passo é clicar em*"iniciar um ciclo"* . O primeiro ciclo será sem desafios, portanto se pode relaxar.
+Next step is to click on*"start a cycle"* . The first cycle will be without challenges, so you can relax.
 
-Quando o _timer_ chegar em 00:00, será disparado um som e uma notificação, caso o usuario tenha aceitado exibi-las. Em seguida, um novo desafio será proposto
+When the _timer_ reaches 00:00, a sound and a notification will be triggered, if the user has agreed to display them. Then a new challenge will be proposed
 
 ![Screenshot_6](https://user-images.githubusercontent.com/62115215/109426369-31291f80-79cc-11eb-813a-628db1c114c5.png)
 
 ![Screenshot_7](https://user-images.githubusercontent.com/62115215/109426500-ba405680-79cc-11eb-9b3f-11cc02d3b005.png)
 
-> Legenda:
+> Legend:
 
-1. Quantidade de experiência que será recebida após o termino do desafio
-2. Título e descrição do desafio
-3. Botão Falhei, ao clicá-lo o contador será resetado e nenhuma experiência será recebida
-4. Botão Cmpletei, ao clicá-lo a experiência será recebida e o contador de desafios será incrementado
+1. Amount of experience that will be received after the challenge ends
+2. Challenge title and description
+3. Failed button, when clicked the counter will be reset and no experience will be received
+4. Complete button, when you click it, experience will be received and the challenge counter will be incremented
 
-Após ganhar experiência, você pode subir de level. Até que level você consegue chegar?
+After gaining experience, you can level up. What level can you reach?
 
 ![Screenshot_8](https://user-images.githubusercontent.com/62115215/109426572-2327ce80-79cd-11eb-9a0f-702970d511ce.png)
 
-> Level 2 alcançado 👏
+> Level 2 reached 👏
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
