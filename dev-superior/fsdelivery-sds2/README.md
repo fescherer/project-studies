@@ -16,7 +16,8 @@
 <h3 align="center">FS Delivery</h3>
 
 <p align="center">
-Aplicação que gerencia o sistema de entregas de pedidos de um restaurante fictício chamado FS
+
+Application that manages the order delivery system of a fictional restaurant called FS
 <br />
 <a href="https://github.com/ofelipescherer/project-studies"><strong>Explore the docs »</strong></a>
 <br />
@@ -47,15 +48,11 @@ Aplicação que gerencia o sistema de entregas de pedidos de um restaurante fict
 
 ## 🚚 About 🚚
 
-A aplicação é dividade em três partes: O frontend web; o frontend mobile e o backend. Na parte web é onde que o cliente escolhe seu pedido e em seguida sua localização. A parte do backend é responsável por carregar o cardápio, ou seja, os produtos oferecidos. E por fim, no frontend mobile, é onde o entregador gerencia todos os pedidos que foram feitos pelo usuário.
+The application is divided into three parts: The web frontend; the mobile frontend and the backend. On the web part is where the customer chooses his order and then his location. The backend part is responsible for loading the menu, that is, the products offered. And finally, on the mobile frontend, this is where the delivery person manages all orders that have been placed by the user.
 
-A aplicação foi desenvolvida durante a **Semana Dev Superior 2.0**. Nela, [Nélio Alves](https://www.linkedin.com/in/nelio-alves) ensinou os conceitos relacionados ao backend, usando Spring Boot, um framework de Java.
+[Project's Deploy](https://felipescherer-fsdelivery.netlify.app)
 
-[projeto](https://felipescherer-fsdelivery.netlify.app)
-
-[Washington Soares Braga](https://www.linkedin.com/in/washington-soares-braga) também foi um dos professores da semana. Ele ficou responsável pelo frontend, ensinando React, um framework de JavaScript. Porém, atualmente temos uma linguagem que nasceu a partir do JavaScript, ela se chama TypeScript, entre as principais diferenças, estão que no TypeScript, as variáveis devem ser tipadas, ou seja, devemos declarar seu tipo (int, float, boolean, etc) desse jeito, o código fica mais fácil de dar manuntenção. Por esse e outros motivos, foi decido usá-lo.
-
-Agradeço muito a todos da [Dev Superior](https://youtube.com/devsuperior) por me proporcionar essa semana incrível com muito conteúdo sobre React e Spring Boot.
+A big thank you to everyone at [Dev Superior](https://youtube.com/devsuperior) for giving me this amazing week with a lot of content about React and Spring Boot.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,38 +115,38 @@ cd dev-superior/front-web
 
 ## 🙋 How to use 🙋
 
-A tela inicial, serve apenas para dar boas vindas
+Home screen:
 
 ![Screenshot_1](https://user-images.githubusercontent.com/62115215/110243621-f37f4600-7f39-11eb-8099-105402b47d5a.png)
 
-Em seguida o cardápio será carregado. Ele pode demorar um pouco, pois estamos usando um host de backend free [Heroku](https://www.heroku.com)
+Then the menu will be loaded. It may take a while as we are using a free backend host [Heroku](https://www.heroku.com)
 
 ![Screenshot_2](https://user-images.githubusercontent.com/62115215/110243714-4953ee00-7f3a-11eb-99a2-b27830a560ec.png)
 
-Aqui podemos escolher o pedido, além de fornecer a localização da entrega
+Here we can choose the order, in addition to providing the delivery location
 
 ![Screenshot_3](https://user-images.githubusercontent.com/62115215/110243771-8f10b680-7f3a-11eb-8d89-46cb39a62143.png)
 ![Screenshot_4](https://user-images.githubusercontent.com/62115215/110243769-8ddf8980-7f3a-11eb-82ce-1544742513dc.png)
 
-Após clicar em "Fazer Pedido", caso tudo tenha dado certo, aparecerá uma notificação no canto direito superior
+After clicking "Place Order", if everything went well, a notification will appear in the upper right corner
 
 ![Screenshot_5](https://user-images.githubusercontent.com/62115215/110243840-e0b94100-7f3a-11eb-963a-accbe8f18072.png)
 
-Na parte mobile, é bem simples.
+On mobile, it's pretty simple.
 
-A primeira etapa é apenas uma tela de boas vindas
+The first step is just a welcome screen
 
 ![Boas vindas](https://user-images.githubusercontent.com/62115215/110244092-eebb9180-7f3b-11eb-840a-8ad6ada1c5ef.jpeg)
 
-Em seguida, temos a tela onde os pedidos serão listados
+Then we have the screen where the orders will be listed
 
 ![pedidos](https://user-images.githubusercontent.com/62115215/110244095-ef542800-7f3b-11eb-9598-433d36216a38.jpeg)
 
-Conseguimos também entrar em cada pedido e ver suas especificações
+We were also able to enter each order and see its specifications.
 
 ![Especificações](https://user-images.githubusercontent.com/62115215/110244094-eebb9180-7f3b-11eb-9f06-7e1c2a558d92.jpeg)
 
-Por fim, ao concluir um pedido será aparecido um pop up e ele será removido da lista de pendentes
+Finally, when completing an order, a pop up will appear and it will be removed from the pending list
 
 ![confirmação](https://user-images.githubusercontent.com/62115215/110244091-ee22fb00-7f3b-11eb-976e-d8d36db50d89.jpeg)
 
