@@ -109,16 +109,6 @@ cd rocketseat/nlw-05-plant-manager
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- **********************🐲How to use🐲********************** -->
-
-<a name="usage"></a>
-
-## 🙋 How to use 🙋
-
-T
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- **********************🐲Report Bug / Request Feature🐲********************** -->
 
 <a name="issue"></a>
