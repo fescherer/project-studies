@@ -123,4 +123,4 @@ My name is Felipe Scherer and you can find me at:
 [info-contribute-shield]: https://img.shields.io/badge/👋-How%20to%20contribute-blue.svg?style=for-the-badge
 [info-contribute-url]: https://github.com/ofelipescherer/utils/blob/main/CONTRIBUTING.md
 [info-issues-shield]: https://img.shields.io/badge/🐞-How%20to%20create%20an%20issue-blue.svg?style=for-the-badge
-[info-issues-url]: https://github.com/ofelipescherer/utils/blob/main/CONTRIBUTING.md
+[info-issues-url]: https://github.com/ofelipescherer/utils/blob/main/ISSUE.md
