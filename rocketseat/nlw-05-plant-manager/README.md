@@ -28,15 +28,14 @@ App to manage/remember of your plants
 •
 <a href="#install">Getting Started</a>
 •
-<a href="#issue">Report Bug / Request Feature</a>
+<a href="#info">Info</a>
 •
-<a href="#contributing">Contributing</a>
+<a href="#contact">Contact me</a>
 •
 <a href="#contributors">Contributors</a>
 •
-<a href="#license">License</a>
-•
-<a href="#contact">Contact me</a>
+<a href="#special-thanks">Special Thanks</a>
+
 </p>
 </div>
 
@@ -102,37 +101,21 @@ cd rocketseat/nlw-05-plant-manager
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- **********************🐲Report Bug / Request Feature🐲********************** -->
+<!-- **********************🐲Info🐲********************** -->
 
-<a name="issue"></a>
+<a name="info"></a>
 
-## 🐞 Report Bug / Request Feature 🐞
+## :information_source: Info :information_source:
 
-If you found a bug or want to request a feature, you can open an [issue](https://github.com/ofelipescherer/project-studies/issues)
+Don't forget to leave a star if you like the project ✨
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="center">
 
-<!-- **********************🐲Be part of this project🐲********************** -->
+[![MIT License][license-shield]][license-url]
+[![How to contribute][info-contribute-shield]][info-contribute-url]
+[![Create an issue][info-issues-shield]][info-issues-url]
 
-<a name="contributing"></a>
-
-## 👋 Be part of this project 👋
-
-Contributions are extremely welcome. You can see how to make one by following the file [Contributing](/CONTRIBUTING.md)
-
-And don't forget to leave a star on the project if you liked it 🤩
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- **********************🐲License🐲********************** -->
-
-<a name="license"></a>
-
-## ⚖️ License ⚖️
-
-Distributed under the MIT License. See [License](/LICENSE.md) for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+</div>
 
 <!-- **********************🐲Contact Me🐲********************** -->
 
@@ -226,3 +209,7 @@ My thanks to the incredible instructors of this immersion. <3
 [typescript-url]: https://www.typescriptlang.org
 [react-native]: https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
 [react-native-url]: https://reactnative.dev
+[info-contribute-shield]: https://img.shields.io/badge/👋-How%20to%20contribute-blue.svg?style=for-the-badge
+[info-contribute-url]: https://github.com/ofelipescherer/utils/blob/main/CONTRIBUTING.md
+[info-issues-shield]: https://img.shields.io/badge/🐞-How%20to%20create%20an%20issue-blue.svg?style=for-the-badge
+[info-issues-url]: https://github.com/ofelipescherer/utils/blob/main/ISSUE.md

@@ -29,6 +29,7 @@ A repository containing projects made with help of instructors
 <a href="#contact">Contact me</a>
 •
 <a href="#contributors">Contributors</a>
+
 </p>
 </div>
 
@@ -46,9 +47,9 @@ This repository contains projects made specialy at Alura, Rocketseat and Dev Sup
 
 <a name="info"></a>
 
-## ℹ️ Info ℹ️
+## :information_source: Info :information_source:
 
-If you like the project, don't forget to leave a star ✨
+Don't forget to leave a star if you like the project ✨
 
 <div align="center">
 
@@ -99,8 +100,6 @@ My name is Felipe Scherer and you can find me at:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- Badges and Badges Link -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/project-studies.svg?style=for-the-badge
@@ -119,7 +118,6 @@ My name is Felipe Scherer and you can find me at:
 [youtube-url]: https://www.youtube.com/channel/UCySqmz_Rohnl53VLoNQsnKg
 [github-shield]: https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white
 [github-url]: https://github.com/ofelipescherer
-
 [info-contribute-shield]: https://img.shields.io/badge/👋-How%20to%20contribute-blue.svg?style=for-the-badge
 [info-contribute-url]: https://github.com/ofelipescherer/utils/blob/main/CONTRIBUTING.md
 [info-issues-shield]: https://img.shields.io/badge/🐞-How%20to%20create%20an%20issue-blue.svg?style=for-the-badge
