@@ -53,6 +53,8 @@ The application was developed during **Next Level Week #04** or **NLW #04**. In 
 
 I am very grateful to everyone at [Rockeseat](https://rocketseat.com.br), especially [Diego Fernandes](https://twitter.com/dieegosf), for giving me this amazing week with lots of content about React and Next.
 
+Deploy [Link](https://moveit-felipescherer.vercel.app)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- **********************🐲Built With🐲********************** -->
