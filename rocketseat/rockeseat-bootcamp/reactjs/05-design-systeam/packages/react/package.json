@@ -19,5 +19,8 @@
     "@ofelipescherer/eslint-config": "*",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
   }
 }
