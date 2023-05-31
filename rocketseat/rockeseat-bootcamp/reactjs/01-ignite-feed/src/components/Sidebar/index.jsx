@@ -6,7 +6,7 @@ import { Avatar } from "../Avatar";
 export function Sidebar() {
   return (
     <aside className={styles.sidebar}>
-      <img src={image} />
+      <img src={image} className={styles.bgImage} />
 
       <div className={styles.profile}>
         <Avatar src="https://github.com/ofelipescherer.png" />
