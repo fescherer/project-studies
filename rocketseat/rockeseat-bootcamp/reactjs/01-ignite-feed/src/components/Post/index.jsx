@@ -1,13 +1,32 @@
 import { Avatar } from "../Avatar";
 import { Comment } from "../Comment";
 import styles from "./Post.module.css";
+import { format, formatDistanceToNow } from "date-fns";
+import ptBR from "date-fns/locale/pt-BR";
+export function Post({ author, publishedAt, content }) {
+  const publishedDateFormated = format(
+    publishedAt,
+    "d 'de' LLLL 'às' HH:mm'hrs'",
+    { locale: ptBR }
+  );
 
-export function Post({author, publishedAt, content}) {
+  const publishedDateRelativeToNow = formatDistanceToNow(publishedAt, {
+    locale: ptBR,
+    addSuffix: true,
+  });
+
+  // new Intl.DateTimeFormat("pt-BR", {
+  //   day: "2-digit",
+  //   month: "long",
+  //   hour: "2-digit",
+  //   minute: "2-digit",
+  // }).format(publishedAt);
+
   return (
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img
+          <Avatar
             src={author.avatarURL}
             alt="Profile image"
             className={styles.avatar}
@@ -17,23 +36,22 @@ export function Post({author, publishedAt, content}) {
             <span>{author.role}</span>
           </div>
         </div>
-        <time title="11 de maio as 13hrs" dateTime="2022-05-11 09:13:00">
-          Criado em {`${publishedAt.getDay()}-${publishedAt.getMonth()}-${publishedAt.getFullYear()} `} às {`${publishedAt.getHours()}hrs${publishedAt.getMinutes()}`}
+        <time
+          title={publishedDateFormated}
+          dateTime={publishedAt.toISOString()}
+        >
+          {publishedDateRelativeToNow}
         </time>
       </header>
 
-      
-        {
-          content.map(item => (
-            <>
-              <div className={styles.content}>
-                {item.type === 'paragraph' && <p>{item.content}</p>}
-                {item.type === 'link' && <a href="">{item.content}</a>}
-              </div>
-            </>
-          ))
-
-        }
+      {content.map((item) => (
+        <>
+          <div className={styles.content}>
+            {item.type === "paragraph" && <p>{item.content}</p>}
+            {item.type === "link" && <a href="">{item.content}</a>}
+          </div>
+        </>
+      ))}
 
       <form className={styles.commentForm}>
         <strong>Deixe seu comentário</strong>
