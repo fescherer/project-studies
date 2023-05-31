@@ -1,41 +1,38 @@
 import { Comment } from "../Comment";
 import styles from "./Post.module.css";
 
-export function Post() {
+export function Post({author, publishedAt, content}) {
   return (
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
           <img
-            src="https://github.com/ofelipescherer.png"
+            src={author.avatarURL}
             alt="Profile image"
             className={styles.avatar}
           />
           <div className={styles.authorInfo}>
-            <strong>Felipe Scherer</strong>
-            <span>Web Develop</span>
+            <strong>{author.name}</strong>
+            <span>{author.role}</span>
           </div>
         </div>
-
         <time title="11 de maio as 13hrs" dateTime="2022-05-11 09:13:00">
-          Criado há 1h
+          Criado em {`${publishedAt.getDay()}-${publishedAt.getMonth()}-${publishedAt.getFullYear()} `} às {`${publishedAt.getHours()}hrs${publishedAt.getMinutes()}`}
         </time>
       </header>
 
-      <div className={styles.content}>
-        <p>Fala galeraa 👋</p>
-        <p>
-          Acabei de subir mais um projeto no meu portifa. É um projeto que fiz
-          no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
-        </p>
-        <p>
-          <a href="">jane.design/doctorcare</a>
-        </p>
-        <p>
-          <a href="">#novoprojeto</a> <a href="">#nlw</a>{" "}
-          <a href="">#rocketseat</a>
-        </p>
-      </div>
+      
+        {
+          content.map(item => (
+            <>
+              <div className={styles.content}>
+                {item.type === 'paragraph' && <p>{item.content}</p>}
+                {item.type === 'link' && <a href="">{item.content}</a>}
+              </div>
+            </>
+          ))
+
+        }
 
       <form className={styles.commentForm}>
         <strong>Deixe seu comentário</strong>
