@@ -11,6 +11,7 @@ export function Comment({ content, onDeleteComment }) {
   }
 
   function handleLikeCount() {
+    // Isso chama closure
     setLikeCount((prev) => prev + 1);
   }
 
