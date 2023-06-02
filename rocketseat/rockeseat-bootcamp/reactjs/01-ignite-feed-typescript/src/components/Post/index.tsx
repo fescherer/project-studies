@@ -16,23 +16,28 @@ type Content = {
   content: string
 }
 
-type PostProps = {
+export type PostType = {
   author: Author,
   publishedAt: Date,
+  id: number
   content: Content[]
 }
 
-export function Post({ author, publishedAt, content }: PostProps) {
+type PostProps = {
+  post: PostType
+}
+
+export function Post({ post }: PostProps) {
   const [comments, setComments] = useState<string[]>([]);
   const [newComment, setNewComment] = useState("");
 
   const publishedDateFormated = format(
-    publishedAt,
+    post.publishedAt,
     "d 'de' LLLL 'às' HH:mm'hrs'",
     { locale: ptBR }
   );
 
-  const publishedDateRelativeToNow = formatDistanceToNow(publishedAt, {
+  const publishedDateRelativeToNow = formatDistanceToNow(post.publishedAt, {
     locale: ptBR,
     addSuffix: true,
   });
@@ -71,23 +76,23 @@ export function Post({ author, publishedAt, content }: PostProps) {
       <header>
         <div className={styles.author}>
           <Avatar
-            src={author.avatarURL}
+            src={post.author.avatarURL}
             alt="Profile image"
           />
           <div className={styles.authorInfo}>
-            <strong>{author.name}</strong>
-            <span>{author.role}</span>
+            <strong>{post.author.name}</strong>
+            <span>{post.author.role}</span>
           </div>
         </div>
         <time
           title={publishedDateFormated}
-          dateTime={publishedAt.toISOString()}
+          dateTime={post.publishedAt.toISOString()}
         >
           {publishedDateRelativeToNow}
         </time>
       </header>
 
-      {content.map((item, index) => (
+      {post.content.map((item, index) => (
         <div className={styles.content} key={index}>
           {item.type === "paragraph" && <p>{item.content}</p>}
           {item.type === "link" && <a href="">{item.content}</a>}
