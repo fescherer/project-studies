@@ -33,8 +33,8 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarURL: "https://github.com/ofelipescherer.png",
-      name: "Gustavo Scherer",
+      avatarURL: "https://github.com/diego3g.png",
+      name: "Diego Fernandes",
       role: "Professor",
     },
     content: [
@@ -45,7 +45,7 @@ const posts = [
       {
         type: "paragraph",
         content:
-          "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
+          "Acabei de subir mais um projeto no meu portifolio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
       },
       {
         type: "link",
@@ -68,7 +68,7 @@ function App() {
             <Post
               author={post.author}
               key={post.id}
-              content={post.content}
+              content={post.content as []}
               publishedAt={post.publishedAt}
             />
           ))}

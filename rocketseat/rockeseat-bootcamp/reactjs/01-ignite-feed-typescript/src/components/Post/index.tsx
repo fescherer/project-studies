@@ -1,4 +1,4 @@
-import { FormEvent, useState } from "react";
+import { ChangeEvent, FormEvent, InvalidEvent, useState } from "react";
 import { Avatar } from "../Avatar";
 import { Comment } from "../Comment";
 import styles from "./Post.module.css";
@@ -11,10 +11,15 @@ type Author = {
   avatarURL: string
 }
 
+type Content = {
+  type: 'paragraph' | 'link'
+  content: string
+}
+
 type PostProps = {
   author: Author,
   publishedAt: Date,
-  content: string
+  content: Content[]
 }
 
 export function Post({ author, publishedAt, content }: PostProps) {
@@ -46,17 +51,17 @@ export function Post({ author, publishedAt, content }: PostProps) {
     setNewComment("");
   }
 
-  function handleCommentText(event: FormEvent) {
+  function handleCommentText(event: ChangeEvent<HTMLTextAreaElement>) {
     setNewComment(event.target.value);
     event.target.setCustomValidity("");
   }
 
-  function deleteComment(comment) {
+  function deleteComment(comment: string) {
     const newCommentsList = comments.filter((item) => item !== comment);
     setComments(newCommentsList);
   }
 
-  function handleNewCommentInvalid(event) {
+  function handleNewCommentInvalid(event: InvalidEvent<HTMLTextAreaElement>) {
     event.target.setCustomValidity("Esse campo é obrigatório");
     // console.log(event);
   }
@@ -68,7 +73,6 @@ export function Post({ author, publishedAt, content }: PostProps) {
           <Avatar
             src={author.avatarURL}
             alt="Profile image"
-            className={styles.avatar}
           />
           <div className={styles.authorInfo}>
             <strong>{author.name}</strong>
