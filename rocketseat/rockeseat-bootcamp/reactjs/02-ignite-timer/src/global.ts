@@ -9,5 +9,6 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: #333;
     color: #FFF;
+    -webkit-font-smoothing: antialiased;
   }
 `
