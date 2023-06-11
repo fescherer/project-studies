@@ -1,20 +1,16 @@
-import { useEffect, useState } from 'react'
+import { useContext, useEffect } from 'react'
 import { CountdownContainer, Separator } from './styles'
 import { differenceInSeconds } from 'date-fns'
-import { Cycle } from '../../../../@types/Cycle'
+import { CyclesContext } from '../../../../contexts/Cycles.context'
 
-type CountdownProps = {
-  activeCycle: Cycle | undefined
-  setCycles: React.Dispatch<React.SetStateAction<Cycle[]>>
-  activeCycleId: string | null
-}
-
-export function Countdown({
-  activeCycle,
-  setCycles,
-  activeCycleId
-}: CountdownProps) {
-  const [amountSecondsPassed, setAmountSecondsPassed] = useState(0)
+export function Countdown() {
+  const {
+    activeCycle,
+    activeCycleId,
+    markCurrentCycleAsFinished,
+    amountSecondsPassed,
+    setSecondsPassed
+  } = useContext(CyclesContext)
 
   const totalSeconds = activeCycle ? activeCycle.minutes * 60 : 0
   const currentSeconds = activeCycle ? totalSeconds - amountSecondsPassed : 0
@@ -42,26 +38,24 @@ export function Countdown({
         )
 
         if (secondsDifference >= totalSeconds) {
-          setCycles((state) =>
-            state.map((cycle) => {
-              if (cycle.id === activeCycleId) {
-                return { ...cycle, finishedDate: new Date() }
-              } else {
-                return cycle
-              }
-            })
-          )
+          markCurrentCycleAsFinished()
 
-          setAmountSecondsPassed(totalSeconds)
+          setSecondsPassed(totalSeconds)
           clearInterval(interval)
         } else {
-          setAmountSecondsPassed(secondsDifference)
+          setSecondsPassed(secondsDifference)
         }
       }, 1000)
     }
 
     return () => clearInterval(interval)
-  }, [activeCycle, totalSeconds, activeCycleId])
+  }, [
+    activeCycle,
+    totalSeconds,
+    activeCycleId,
+    setSecondsPassed,
+    markCurrentCycleAsFinished
+  ])
 
   return (
     <CountdownContainer>

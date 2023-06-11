@@ -1,21 +1,19 @@
 import { HandPalm, Play } from 'phosphor-react'
-import { useForm } from 'react-hook-form'
+import { FormProvider, useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 
 import * as S from './styles'
-import { useState } from 'react'
+import { useContext } from 'react'
 import { Countdown } from './components/Countdown'
-import { NewCycleForm } from './components/NewCycle'
-import { Cycle } from '../../@types/Cycle'
 import { NewCycleFormData, newCycleFormValidationSchema } from './validation'
+import { NewCycleForm } from './components/NewCycle'
+import { CyclesContext } from '../../contexts/Cycles.context'
 
 export function Home() {
-  const [cycles, setCycles] = useState<Cycle[]>([])
-  const [activeCycleId, setActiveCycleId] = useState<string | null>(null)
+  const { activeCycle, createNewCycle, interruptCurrentCycle } =
+    useContext(CyclesContext)
 
-  const activeCycle = cycles.find((cycle) => cycle.id === activeCycleId)
-
-  const { register, handleSubmit, watch, reset } = useForm<NewCycleFormData>({
+  const newCycleForm = useForm<NewCycleFormData>({
     resolver: zodResolver(newCycleFormValidationSchema),
     defaultValues: {
       task: '',
@@ -23,35 +21,11 @@ export function Home() {
     }
   })
 
+  const { handleSubmit, watch, reset } = newCycleForm
+
   function handleCreateNewCycle(data: NewCycleFormData) {
-    const id = (cycles.length + 1).toString()
-
-    setCycles((prev) => [
-      ...prev,
-      {
-        id: id,
-        minutes: data.minutesAmount,
-        task: data.task,
-        startDate: new Date()
-      }
-    ])
-
-    setActiveCycleId(id)
-    console.log(data)
+    createNewCycle(data)
     reset()
-  }
-
-  function handleInterruptCycle() {
-    setCycles((prev) =>
-      prev.map((cycle) => {
-        if (cycle.id === activeCycleId) {
-          return { ...cycle, interruptedDate: new Date() }
-        } else {
-          return cycle
-        }
-      })
-    )
-    setActiveCycleId(null)
   }
 
   const task = watch('task')
@@ -60,15 +34,13 @@ export function Home() {
   return (
     <S.HomeContainer>
       <form onSubmit={handleSubmit(handleCreateNewCycle)}>
-        <NewCycleForm register={register} activeCycle={activeCycle} />
-        <Countdown
-          activeCycle={activeCycle}
-          setCycles={setCycles}
-          activeCycleId={activeCycleId}
-        />
+        <FormProvider {...newCycleForm}>
+          <NewCycleForm />
+        </FormProvider>
+        <Countdown />
 
         {activeCycle ? (
-          <S.StopCountdownButton onClick={handleInterruptCycle} type="button">
+          <S.StopCountdownButton onClick={interruptCurrentCycle} type="button">
             <HandPalm size={24} />
             Interromper
           </S.StopCountdownButton>
