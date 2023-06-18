@@ -17,7 +17,7 @@
 
 <p align="center">
 
-A repository containing projects made with help of instructors
+A repository containing projects made with help of instructors.
 <br />
 <a href="https://github.com/ofelipescherer/project-studies"><strong>Explore the docs »</strong></a>
 <br />
