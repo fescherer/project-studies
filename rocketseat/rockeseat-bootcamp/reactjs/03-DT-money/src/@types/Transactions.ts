@@ -6,3 +6,10 @@ export type TransactionType = {
   category: string
   createdAt: string
 }
+
+export type CreateTransactionInputType = {
+  description: string
+  price: number
+  category: string
+  type: 'income' | 'outcome'
+}
