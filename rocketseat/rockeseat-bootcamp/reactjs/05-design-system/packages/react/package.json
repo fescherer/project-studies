@@ -1,5 +1,5 @@
 {
-  "name": "@ofelipescherer-igite/react",
+  "name": "@ofelipescherer-ignite/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,7 +13,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ofelipescherer-igite/tokens": "*",
+    "@ofelipescherer-ignite/tokens": "*",
     "@ofelipescherer-ignite/eslint-config": "*",
     "@ofelipescherer-ignite/ts-config": "*",
     "@types/react": "^18.2.14",

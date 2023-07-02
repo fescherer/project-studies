@@ -25,5 +25,12 @@
     "react-dom": "^18.2.0",
     "storybook": "^7.0.24",
     "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@ofelipescherer-ignite/eslint-config": "*",
+    "@ofelipescherer-ignite/ts-config": "*",
+    "@ofelipescherer-ignite/react": "*",
+    "@ofelipescherer-ignite/tokens": "*",
+    "polished": "^4.2.2"
   }
 }

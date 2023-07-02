@@ -1,0 +1,4 @@
+{
+  "extends": "@ofelipescherer-ignite/ts-config/react.json",
+  "include": ["src"]
+}
