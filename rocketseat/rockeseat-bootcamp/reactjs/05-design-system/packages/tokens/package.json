@@ -13,6 +13,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@ofelipescherer-ignite/ts-config": "*",
+    "@ofelipescherer-ignite/eslint-config": "*",
     "tsup": "^7.1.0",
     "typescript": "^5.1.6"
   }
