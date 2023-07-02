@@ -5,7 +5,7 @@ export default {
   title: 'Data display/Avatar',
   component: Avatar,
   args: {
-    src: 'https://github.com/diego3g.png',
+    src: 'https://github.com/ofelipescherer.png',
     alt: 'Diego Fernandes'
   }
 } as Meta<AvatarProps>

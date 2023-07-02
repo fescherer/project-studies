@@ -28,9 +28,10 @@
   },
   "dependencies": {
     "@ofelipescherer-ignite/eslint-config": "*",
-    "@ofelipescherer-ignite/ts-config": "*",
     "@ofelipescherer-ignite/react": "*",
     "@ofelipescherer-ignite/tokens": "*",
+    "@ofelipescherer-ignite/ts-config": "*",
+    "phosphor-react": "^1.4.1",
     "polished": "^4.2.2"
   }
 }
