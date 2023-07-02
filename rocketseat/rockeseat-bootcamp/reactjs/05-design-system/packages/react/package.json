@@ -1,5 +1,5 @@
 {
-  "name": "@ofelipescherer-igite/tokens",
+  "name": "@ofelipescherer-igite/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@ofelipescherer-igite/tokens": "*",
     "tsup": "^7.1.0",
     "typescript": "^5.1.6"
   }
