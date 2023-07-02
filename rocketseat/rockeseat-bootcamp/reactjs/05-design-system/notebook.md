@@ -15,3 +15,8 @@ Componentes que geralmente podem entrar em um design system
 Comandos
 
 ``npm init -y``
+
+
+Biblioteca
+
+Tsup-> Biblioteca que transforma código typescript em javascript de um jeito mais performático e acessivel para todas as aplicações
