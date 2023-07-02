@@ -2,7 +2,7 @@
 const config = {
   stories: [
     '../src/pages/**/*.mdx',
-    '../stories/**/*.stories.@(js|jsx|ts|tsx)'
+    '../src/stories/**/*.stories.@(js|jsx|ts|tsx)'
   ],
   addons: [
     '@storybook/addon-links',
