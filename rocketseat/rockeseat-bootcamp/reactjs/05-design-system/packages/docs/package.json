@@ -31,6 +31,7 @@
     "@ofelipescherer-ignite/react": "*",
     "@ofelipescherer-ignite/tokens": "*",
     "@ofelipescherer-ignite/ts-config": "*",
+    "@storybook/addon-a11y": "^7.0.24",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2"
   }
