@@ -6,7 +6,14 @@ export default {
   component: Avatar,
   args: {
     src: 'https://github.com/ofelipescherer.png',
-    alt: 'Diego Fernandes'
+    alt: 'Felipe Scherer'
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text'
+      }
+    }
   }
 } as Meta<AvatarProps>
 
