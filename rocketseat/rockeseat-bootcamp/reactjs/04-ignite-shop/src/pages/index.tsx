@@ -1,5 +1,13 @@
 import { Roboto } from 'next/font/google'
 import { styled } from '@stitches/react'
+import * as S from '@/styles/pages/app'
+import Image from 'next/image'
+
+import camiseta1 from '../assets/camisetas/1.png'
+import camiseta2 from '../assets/camisetas/2.png'
+import camiseta3 from '../assets/camisetas/3.png'
+import { useKeenSlider } from 'keen-slider/react'
+import 'keen-slider/keen-slider.min.css'
 
 const roboto = Roboto({
   weight: ['400', '700'],
@@ -7,28 +15,44 @@ const roboto = Roboto({
   display: 'swap'
 })
 
-const Button = styled('button', {
-  backgroundColor: '$green500',
-  borderRadius: 4,
-  border: 0,
-  padding: '4px 8px',
-
-  span: {
-    fontWeight: 'bold'
-  },
-
-  '&:hover': {
-    filter: 'brightness(0.8)'
-  }
-})
-
 export default function Home() {
+  const [sliderRef] = useKeenSlider({
+    slides: {
+      perView: 3,
+      spacing: 48
+    }
+  })
+
   return (
     <main className={`${roboto.className}`}>
-      <Button>
-        <span>Testedassd</span>
-        Enviar
-      </Button>
+      <S.HomeContainer ref={sliderRef} className="keen-slider">
+        <S.Product className="keen-slider__slide">
+          <Image src={camiseta1} width={520} height={480} alt="" />
+
+          <footer>
+            <strong>Camiseta X</strong>
+            <span>R$ 79,90</span>
+          </footer>
+        </S.Product>
+
+        <S.Product className="keen-slider__slide">
+          <Image src={camiseta2} width={520} height={480} alt="" />
+
+          <footer>
+            <strong>Camiseta X</strong>
+            <span>R$ 79,90</span>
+          </footer>
+        </S.Product>
+
+        <S.Product className="keen-slider__slide">
+          <Image src={camiseta3} width={520} height={480} alt="" />
+
+          <footer>
+            <strong>Camiseta X</strong>
+            <span>R$ 79,90</span>
+          </footer>
+        </S.Product>
+      </S.HomeContainer>
     </main>
   )
 }
