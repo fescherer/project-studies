@@ -1,6 +1,5 @@
 import { Roboto } from 'next/font/google'
-import { styled } from '@stitches/react'
-import * as S from '@/styles/pages/app'
+import * as S from '@/styles/pages/home'
 import Image from 'next/image'
 
 import camiseta1 from '../assets/camisetas/1.png'
