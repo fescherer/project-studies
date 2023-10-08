@@ -1,0 +1,7 @@
+[Background image](https://wallup.net/wp-content/uploads/2015/07/Cat-head-on-the-desk.jpg)
+[GIF Question 1](https://media.giphy.com/media/dKNou2IQj7vm2kB9fX/giphy.gif)
+[GIF Question 2](https://media.giphy.com/media/JhpDQpQhBOlTW/giphy.gif)
+[GIF Question 3](https://media.giphy.com/media/KCetsAmkqjvNYIZMaL/giphy.gif)
+[GIF Question 4](https://media.giphy.com/media/l0HlFOlbKxx1BjzO0/giphy.gif)
+[GIF Question 5](https://media.giphy.com/media/qvuIkBneOp8kM/giphy.gif)
+[Loading animation](https://lottiefiles.com/46997-color-preloader)

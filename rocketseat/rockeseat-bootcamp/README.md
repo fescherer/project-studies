@@ -9,8 +9,8 @@
 [![MIT License][license-shield]][license-url]
 
   <br />
-  <a href="https://github.com/ofelipescherer/project-studies/tree/main/rocketseat/rockeseat-bootcamp">
-    <img src="https://github.com/ofelipescherer/project-studies/assets/62115215/1e023db7-f155-446a-a60d-7f31d52f06b2" alt="Logo" width="80" height="80">
+  <a href="https://github.com/fescherer/project-studies/tree/main/rocketseat/rockeseat-bootcamp">
+    <img src="https://github.com/fescherer/project-studies/assets/62115215/1e023db7-f155-446a-a60d-7f31d52f06b2" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Rocketseat Bootcamp</h3>
@@ -19,7 +19,7 @@
 
 A repository made for classes of Rockeatseat Bootcamp Ignite
 <br />
-<a href="https://github.com/ofelipescherer/project-studies/tree/main/rocketseat/rockeseat-bootcamp"><strong>Explore the docs »</strong></a>
+<a href="https://github.com/fescherer/project-studies/tree/main/rocketseat/rockeseat-bootcamp"><strong>Explore the docs »</strong></a>
 <br />
 <br />
 <a href="#about">About</a>
@@ -45,7 +45,7 @@ A repository made for classes of Rockeatseat Bootcamp Ignite
 
 <a name="about"></a>
 
-## 💬 About 💬
+## 📕 About 📕
 
 This repository contain all of projects classes in Rocketseat Bootcamp Ignite
 
@@ -59,11 +59,13 @@ This repository contain all of projects classes in Rocketseat Bootcamp Ignite
 
 <div align="center">
 
-[![Next][next.js]][next-url]
-[![React][react.js]][react-url]
-[![HTML 5][html 5]][html-url]
-[![CSS 3][css 3]][css-url]
+[![Vite][vite]][vite-url]
+[![React][reactjs]][react-url]
+[![HTML 5][html-5]][html-url]
+[![CSS 3][css-3]][css-url]
 [![Typescript][typescript]][typescript-url]
+[![Next JS][nextjs]][next-url]
+[![Tailwind][tailwind]][tailwind-url]
 
 </div>
 
@@ -81,25 +83,24 @@ To get this project up and running locally on your pc, follow the steps:
 
 - npm
   ```sh
-  npm install npm@latest -g
+   npm install npm@latest -g
   ```
 
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/ofelipescherer/project-studies.git
-   ```
+  ```sh
+   git clone https://github.com/fescherer/project-studies.git
+  ```
 2. Go to project's folder
-
-```sh
-cd rocketseat/rockeseat-bootcamp
-```
+  ```sh
+   cd rocketseat/rockeseat-bootcamp
+  ```
 
 3. Install NPM packages
-   ```sh
+  ```sh
    npm install
-   ```
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,7 +108,7 @@ cd rocketseat/rockeseat-bootcamp
 
 <a name="info"></a>
 
-## ℹ️ Info ℹ️
+## 🌎 Info 🌎
 
 Don't forget to leave a star if you like the project ✨
 
@@ -119,21 +120,14 @@ Don't forget to leave a star if you like the project ✨
 
 </div>
 
-<!-- **********************🐲Contact Me🐲********************** -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- **********************🐲Contact Me🐲********************** -->
 <a name="contact"></a>
 
 ## 💬 Contact me 💬
 
-My name is Felipe Scherer and you can find me at:
-
-<div align="center">
-
-[![Youtube][youtube-shield]][youtube-url]
-[![Linkedin][linkedin-shield]][linkedin-url]
-[![Github][github-shield]][github-url]
-
-</div>
+My name is Felipe Scherer. You can find my socials at [my Github profile](https://github.com/fescherer) 😸
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,8 +140,8 @@ My name is Felipe Scherer and you can find me at:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/ofelipescherer">
-        <img src="https://avatars.githubusercontent.com/u/62115215" width="100px;" alt="Felipe Scherer Picture"/><br>
+      <a href="https://github.com/fescherer">
+        <img src="https://github.com/fescherer.png" width="100px;" alt="Felipe Scherer Picture"/><br>
         <sub>
           <b>Felipe Scherer</b>
         </sub>
@@ -158,7 +152,7 @@ My name is Felipe Scherer and you can find me at:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- **********************🐲Contributors🐲********************** -->
+<!-- **********************🐲Special Thanks🐲********************** -->
 
 <a name="special-thanks"></a>
 
@@ -170,7 +164,7 @@ My thanks to the incredible instructors of this immersion. <3
   <tr>
     <td align="center">
       <a href="https://github.com/diego3g">
-        <img src="https://avatars.githubusercontent.com/diego3g" width="100px;" alt="Diego Fernandes"/><br>
+        <img src="https://github.com/diego3g.png" width="100px;" alt="Diego Fernandes"/><br>
         <sub>
           <b>Diego Fernandes</b>
         </sub>
@@ -182,36 +176,34 @@ My thanks to the incredible instructors of this immersion. <3
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Badges and Badges Link -->
+[contributors-shield]: https://img.shields.io/github/contributors/fescherer/project-studies.svg?style=for-the-badge
+[contributors-url]: https://github.com/fescherer/project-studies/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/fescherer/project-studies.svg?style=for-the-badge
+[forks-url]: https://github.com/fescherer/project-studies/network/members
+[stars-shield]: https://img.shields.io/github/stars/fescherer/project-studies.svg?style=for-the-badge
+[stars-url]: https://github.com/fescherer/project-studies/stargazers
+[issues-shield]: https://img.shields.io/github/issues/fescherer/project-studies.svg?style=for-the-badge
+[issues-url]: https://github.com/fescherer/project-studies/issues
 
-[contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/project-studies.svg?style=for-the-badge
-[contributors-url]: https://github.com/ofelipescherer/project-studies/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ofelipescherer/project-studies.svg?style=for-the-badge
-[forks-url]: https://github.com/ofelipescherer/project-studies/network/members
-[stars-shield]: https://img.shields.io/github/stars/ofelipescherer/project-studies.svg?style=for-the-badge
-[stars-url]: https://github.com/ofelipescherer/project-studies/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ofelipescherer/project-studies.svg?style=for-the-badge
-[issues-url]: https://github.com/ofelipescherer/project-studies/issues
-[license-shield]: https://img.shields.io/github/license/ofelipescherer/project-studies.svg?style=for-the-badge
-[license-url]: https://github.com/ofelipescherer/project-studies/blob/master/LICENSE.md
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0E76A8
-[linkedin-url]: https://www.linkedin.com/in/ofelipescherer
-[youtube-shield]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
-[youtube-url]: https://www.youtube.com/channel/UCySqmz_Rohnl53VLoNQsnKg
-[github-shield]: https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white
-[github-url]: https://github.com/ofelipescherer
-[next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[next-url]: https://nextjs.org/
-[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[license-shield]: https://img.shields.io/github/license/fescherer/project-studies.svg?style=for-the-badge
+[license-url]: https://github.com/fescherer/project-studies/blob/master/LICENSE
+[info-contribute-shield]: https://img.shields.io/badge/👋-How%20to%20contribute-blue.svg?style=for-the-badge
+[info-contribute-url]: https://github.com/fescherer/utils/blob/main/CONTRIBUTING.md
+[info-issues-shield]: https://img.shields.io/badge/🐞-How%20to%20create%20an%20issue-blue.svg?style=for-the-badge
+[info-issues-url]: https://github.com/fescherer/utils/blob/main/ISSUE.md
+
+<!-- https://github.com/Ileriayo/markdown-badges -->
+[vite]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
+[vite-url]: https://vitejs.dev
+[reactjs]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [react-url]: https://reactjs.org/
-[html 5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[html-5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
-[css 3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[css-3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
 [css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [typescript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 [typescript-url]: https://www.typescriptlang.org
-[styled components]: https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white
-[styled-components-url]: https://styled-components.com
-[info-contribute-shield]: https://img.shields.io/badge/👋-How%20to%20contribute-blue.svg?style=for-the-badge
-[info-contribute-url]: https://github.com/ofelipescherer/utils/blob/main/CONTRIBUTING.md
-[info-issues-shield]: https://img.shields.io/badge/🐞-How%20to%20create%20an%20issue-blue.svg?style=for-the-badge
-[info-issues-url]: https://github.com/ofelipescherer/utils/blob/main/ISSUE.md
+[tailwind]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
+[tailwind-url]: https://tailwindcss.com
+[nextjs]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[next-url]: https://nextjs.org/

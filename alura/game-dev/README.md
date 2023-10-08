@@ -9,7 +9,7 @@
 [![MIT License][license-shield]][license-url]
 
   <br />
-  <a href="https://github.com/ofelipescherer/project-studies">
+  <a href="https://github.com/fescherer/project-studies/tree/main/alura/game-dev">
     <img src="https://user-images.githubusercontent.com/62115215/219967984-42253ac1-0f95-45ea-86ee-d29dfe050534.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -19,7 +19,7 @@
 
 This is a runner game made with [p5](https://p5js.org)
 <br />
-<a href="https://github.com/ofelipescherer/project-studies"><strong>Explore the docs »</strong></a>
+<a href="https://github.com/fescherer/project-studies"><strong>Explore the docs »</strong></a>
 <br />
 <br />
 <a href="#about">About</a>
@@ -45,7 +45,7 @@ This is a runner game made with [p5](https://p5js.org)
 
 <a name="about"></a>
 
-## 🎲 About 🎲
+## 📕 About 📕
 
 This was a runner game project developed in June, 22, 2020 - June, 26, 2020.
 
@@ -79,14 +79,14 @@ To get this project up and running locally on your pc, follow the steps:
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/ofelipescherer/project-studies.git
-   ```
+  ```sh
+   git clone https://github.com/fescherer/project-studies.git
+  ```
 2. Go to project's folder
 
-```sh
-cd alura/game-dev
-```
+  ```sh
+   cd alura/game-dev
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +104,7 @@ cd alura/game-dev
 
 <a name="info"></a>
 
-## :information_source: Info :information_source:
+## 🌎 Info 🌎
 
 Don't forget to leave a star if you like the project ✨
 
@@ -119,20 +119,11 @@ Don't forget to leave a star if you like the project ✨
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- **********************🐲Contact Me🐲********************** -->
-
 <a name="contact"></a>
 
 ## 💬 Contact me 💬
 
-My name is Felipe Scherer and you can find me at:
-
-<div align="center">
-
-[![Youtube][youtube-shield]][youtube-url]
-[![Linkedin][linkedin-shield]][linkedin-url]
-[![Github][github-shield]][github-url]
-
-</div>
+My name is Felipe Scherer. You can find my socials at [my Github profile](https://github.com/fescherer) 😸
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,8 +136,8 @@ My name is Felipe Scherer and you can find me at:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/ofelipescherer">
-        <img src="https://avatars.githubusercontent.com/u/62115215" width="100px;" alt="Felipe Scherer Picture"/><br>
+      <a href="https://github.com/fescherer">
+        <img src="https://github.com/fescherer.png" width="100px;" alt="Felipe Scherer Picture"/><br>
         <sub>
           <b>Felipe Scherer</b>
         </sub>
@@ -157,7 +148,7 @@ My name is Felipe Scherer and you can find me at:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- **********************🐲Contributors🐲********************** -->
+<!-- **********************🐲Special Thanks🐲********************** -->
 
 <a name="special-thanks"></a>
 
@@ -169,7 +160,7 @@ My thanks to the incredible instructors of this immersion. <3
   <tr>
     <td align="center">
       <a href="https://github.com/guilhermesilveira">
-        <img src="https://avatars.githubusercontent.com/guilhermesilveira" width="100px;" alt="Guilherme Silveira Picture"/><br>
+        <img src="https://github.com/guilhermesilveira.png" width="100px;" alt="Guilherme Silveira"/><br>
         <sub>
           <b>Guilherme Silveira</b>
         </sub>
@@ -177,7 +168,7 @@ My thanks to the incredible instructors of this immersion. <3
     </td>
     <td align="center">
       <a href="https://github.com/JulianaAmoasei">
-        <img src="https://avatars.githubusercontent.com/JulianaAmoasei" width="100px;" alt="Juliana Amoasei Picture"/><br>
+        <img src="https://github.com/JulianaAmoasei.png" width="100px;" alt="Juliana Amoasei"/><br>
         <sub>
           <b>Juliana Amoasei</b>
         </sub>
@@ -185,7 +176,7 @@ My thanks to the incredible instructors of this immersion. <3
     </td>
     <td align="center">
       <a href="https://github.com/peas">
-        <img src="https://avatars.githubusercontent.com/peas" width="100px;" alt="Paulo Silveira Picture"/><br>
+        <img src="https://github.com/peas.png" width="100px;" alt="Paulo Silveira"/><br>
         <sub>
           <b>Paulo Silveira</b>
         </sub>
@@ -197,28 +188,24 @@ My thanks to the incredible instructors of this immersion. <3
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Badges and Badges Link -->
+[contributors-shield]: https://img.shields.io/github/contributors/fescherer/project-studies.svg?style=for-the-badge
+[contributors-url]: https://github.com/fescherer/project-studies/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/fescherer/project-studies.svg?style=for-the-badge
+[forks-url]: https://github.com/fescherer/project-studies/network/members
+[stars-shield]: https://img.shields.io/github/stars/fescherer/project-studies.svg?style=for-the-badge
+[stars-url]: https://github.com/fescherer/project-studies/stargazers
+[issues-shield]: https://img.shields.io/github/issues/fescherer/project-studies.svg?style=for-the-badge
+[issues-url]: https://github.com/fescherer/project-studies/issues
 
-[contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/project-studies.svg?style=for-the-badge
-[contributors-url]: https://github.com/ofelipescherer/project-studies/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ofelipescherer/project-studies.svg?style=for-the-badge
-[forks-url]: https://github.com/ofelipescherer/project-studies/network/members
-[stars-shield]: https://img.shields.io/github/stars/ofelipescherer/project-studies.svg?style=for-the-badge
-[stars-url]: https://github.com/ofelipescherer/project-studies/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ofelipescherer/project-studies.svg?style=for-the-badge
-[issues-url]: https://github.com/ofelipescherer/project-studies/issues
-[license-shield]: https://img.shields.io/github/license/ofelipescherer/project-studies.svg?style=for-the-badge
-[license-url]: https://github.com/ofelipescherer/project-studies/blob/master/LICENSE.md
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0E76A8
-[linkedin-url]: https://www.linkedin.com/in/ofelipescherer
-[youtube-shield]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
-[youtube-url]: https://www.youtube.com/channel/UCySqmz_Rohnl53VLoNQsnKg
-[github-shield]: https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white
-[github-url]: https://github.com/ofelipescherer
-[javascript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
-[javascript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[license-shield]: https://img.shields.io/github/license/fescherer/project-studies.svg?style=for-the-badge
+[license-url]: https://github.com/fescherer/project-studies/blob/master/LICENSE
+[info-contribute-shield]: https://img.shields.io/badge/👋-How%20to%20contribute-blue.svg?style=for-the-badge
+[info-contribute-url]: https://github.com/fescherer/utils/blob/main/CONTRIBUTING.md
+[info-issues-shield]: https://img.shields.io/badge/🐞-How%20to%20create%20an%20issue-blue.svg?style=for-the-badge
+[info-issues-url]: https://github.com/fescherer/utils/blob/main/ISSUE.md
+
+<!-- https://github.com/Ileriayo/markdown-badges -->
 [p5]: https://img.shields.io/badge/p5.js-ED225D?style=for-the-badge&logo=p5.js&logoColor=FFFFFF
 [p5-url]: https://p5js.org
-[info-contribute-shield]: https://img.shields.io/badge/👋-How%20to%20contribute-blue.svg?style=for-the-badge
-[info-contribute-url]: https://github.com/ofelipescherer/utils/blob/main/CONTRIBUTING.md
-[info-issues-shield]: https://img.shields.io/badge/🐞-How%20to%20create%20an%20issue-blue.svg?style=for-the-badge
-[info-issues-url]: https://github.com/ofelipescherer/utils/blob/main/ISSUE.md
+[javascript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[javascript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
