@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input:not([type=button]):not([type=reset]):not([type=submit]):not([type=image]):focus,textarea:focus, button:focus-visible {
+    outline: 0;
+    @apply ring-2 ring-ignite-600 border-transparent
+  }
+
+  input:focus, textarea:focus {
+    @apply border-transparent
+  }
+
+  input[type=button]:active:not(:disabled),
+  input[type=reset]:active:not(:disabled),
+  input[type=submit]:active:not(:disabled),
+  input[type=image]:active:not(:disabled),
+  button:active:not(:disabled) {
+    outline: none;
+    @apply ring-2 ring-ignite-600 border-transparent
+  }
+}

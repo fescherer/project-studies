@@ -1,9 +1,11 @@
+import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import { globalStyles } from './global'
-import { getCssText } from '@ignite-ui/react'
+import { Roboto } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  weight: ['400', '500', '700', '900'],
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -17,21 +19,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/* <head>
-        <style>
-          {getCssText()} {globalStyles()}
-        </style>
-      </head> */}
-
-      <body className={inter.className}>
+      <body className={`bg-gray-900 text-gray-200 ${roboto.className}`}>
         {children}
-
-        <style
-          id="stitches"
-          dangerouslySetInnerHTML={{
-            __html: `${getCssText()} ${globalStyles()}`,
-          }}
-        />
       </body>
     </html>
   )
