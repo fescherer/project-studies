@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex gap-2 mx-auto max-w-[calc(100vw-(100vw-1160px)/2)] h-screen items-center overflow-hidden">
-      <div className="px-4 max-w-md flex flex-col gap-4 items-baseline">
-        <h1 className="text-white text-5xl font-extrabold">
+    <main className="mx-auto flex h-screen max-w-[calc(100vw-(100vw-1160px)/2)] items-center gap-2 overflow-hidden">
+      <div className="flex max-w-md flex-col items-baseline gap-4 px-4">
+        <h1 className="text-5xl font-extrabold text-white">
           Agendamento descomplicado
         </h1>
         <p className="text-xl">
@@ -16,7 +16,7 @@ export default function Home() {
       </div>
 
       <Image
-        className="hidden md:block pr-4"
+        className="hidden pr-4 md:block"
         src="/app-preview.png"
         width={827}
         height={442}
