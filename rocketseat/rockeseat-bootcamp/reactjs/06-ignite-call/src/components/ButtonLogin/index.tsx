@@ -2,6 +2,7 @@
 
 import { zodResolver } from '@hookform/resolvers/zod'
 import { ArrowRight } from '@phosphor-icons/react'
+import { useRouter } from 'next/navigation'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 
@@ -18,12 +19,18 @@ const registerFormSchema = z.object({
 type RegisterFormData = z.infer<typeof registerFormSchema>
 
 export function ButtonLogin() {
-  const { register, handleSubmit } = useForm<RegisterFormData>({
+  const {
+    register,
+    handleSubmit,
+    formState: { isSubmitting },
+  } = useForm<RegisterFormData>({
     resolver: zodResolver(registerFormSchema),
   })
 
-  function handleRegister(data: RegisterFormData) {
-    console.log(data)
+  const router = useRouter()
+
+  async function handleRegister(data: RegisterFormData) {
+    await router.push(`/register?username=${data.username}`)
   }
 
   return (
@@ -39,7 +46,10 @@ export function ButtonLogin() {
           placeholder="seu-usuário"
         />
       </div>
-      <button className="bg-ignite-500 flex items-center gap-2 whitespace-nowrap rounded px-4 py-2 text-white transition-all hover:brightness-75 ">
+      <button
+        disabled={isSubmitting}
+        className="bg-ignite-500 flex items-center gap-2 whitespace-nowrap rounded px-4 py-2 text-white transition-all hover:brightness-75 "
+      >
         <span>Reservar</span>
         <ArrowRight />
       </button>
