@@ -6,6 +6,7 @@ import { signIn, useSession } from 'next-auth/react'
 import { useSearchParams } from 'next/navigation'
 
 export default function Page() {
+  const session = useSession()
   const searchParams = useSearchParams()
   const { status } = useSession()
 
@@ -15,6 +16,8 @@ export default function Page() {
   async function handleSignIn() {
     await signIn('google')
   }
+
+  console.log(session)
 
   return (
     <div className="m-auto flex max-w-md flex-col items-center gap-4 py-12">

@@ -1,5 +1,5 @@
 import { prisma } from '../../../lib/prisma'
-// import { setCookie } from 'nookies'
+import { cookies } from 'next/headers'
 
 export async function POST(request: Request) {
   const { name, username } = await request.json()
@@ -19,10 +19,15 @@ export async function POST(request: Request) {
     },
   })
 
-  // setCookie({ res }, '@ignitecall:userId', user.id, {
+  // setCookie(request, '@ignitecall:userId', user.id, {
   //   maxAge: 60 * 60 * 24 * 7, // 7 days
   //   path: '/',
   // })
+
+  cookies().set('@ignitecall:userId', user.id, {
+    maxAge: 60 * 60 * 24 * 7, // 7 days
+    path: '/',
+  })
 
   return Response.json(user, { status: 201 })
 }
