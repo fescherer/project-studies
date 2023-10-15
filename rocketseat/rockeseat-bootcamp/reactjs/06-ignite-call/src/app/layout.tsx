@@ -1,3 +1,4 @@
+import { SessionProvider } from '@/contexts/SessionProvider.context'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
@@ -20,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`bg-gray-900 text-gray-200 ${roboto.className}`}>
-        {children}
+        <SessionProvider>{children}</SessionProvider>
       </body>
     </html>
   )
