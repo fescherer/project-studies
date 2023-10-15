@@ -1,9 +1,11 @@
 'use client'
 
 import { FormStep } from '@/components/FormStep'
+import { api } from '@/lib/axios'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { ArrowRight } from '@phosphor-icons/react'
-import { usePathname, useRouter, useSearchParams } from 'next/navigation'
+import { AxiosError } from 'axios'
+import { useSearchParams } from 'next/navigation'
 import { useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
@@ -39,8 +41,17 @@ export default function Page() {
       setValue('username', String(searchParams?.get('username')))
   }, [searchParams, setValue])
 
-  function handleRegister(data: RegisterFormData) {
-    console.log(data)
+  async function handleRegister(data: RegisterFormData) {
+    try {
+      await api.post('/users', {
+        name: data.name,
+        username: data.username,
+      })
+    } catch (err) {
+      if (err instanceof AxiosError && err?.response?.data?.message) {
+        alert(err.response.data.message)
+      } else console.log(err)
+    }
   }
 
   return (
