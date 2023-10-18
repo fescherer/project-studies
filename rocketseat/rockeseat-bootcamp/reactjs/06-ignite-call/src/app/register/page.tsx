@@ -69,7 +69,7 @@ export default function Page() {
         </p>
       </header>
 
-      <FormStep items={[false, false, false, false]} />
+      <FormStep step={4} currentStep={0} />
 
       <form
         onSubmit={handleSubmit(handleRegister)}

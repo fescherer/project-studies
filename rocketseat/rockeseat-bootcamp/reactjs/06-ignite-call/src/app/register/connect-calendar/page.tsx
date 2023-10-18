@@ -3,12 +3,12 @@
 import { FormStep } from '@/components/FormStep'
 import { ArrowRight, Check } from '@phosphor-icons/react'
 import { signIn, useSession } from 'next-auth/react'
-import { useSearchParams } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 
 export default function Page() {
-  const session = useSession()
   const searchParams = useSearchParams()
   const { status } = useSession()
+  const router = useRouter()
 
   const hasError = searchParams.get('error')
   const isSignedId = status === 'authenticated'
@@ -17,7 +17,9 @@ export default function Page() {
     await signIn('google')
   }
 
-  console.log(session)
+  function handleNextStep() {
+    router.push('/register/time-intervals')
+  }
 
   return (
     <div className="m-auto flex max-w-md flex-col items-center gap-4 py-12">
@@ -31,45 +33,48 @@ export default function Page() {
         </p>
       </header>
 
-      <FormStep items={[true, true, false, false]} />
+      <FormStep step={4} currentStep={1} />
 
-      <div className="flex w-full items-center justify-between gap-4 rounded border border-gray-600 p-4">
-        <p>Google Calendar</p>
+      <div className="flex w-full flex-col gap-4 rounded bg-gray-800 p-4">
+        <div className="flex w-full items-center justify-between gap-4 rounded border border-gray-600 p-4">
+          <p>Google Calendar</p>
 
-        {isSignedId ? (
-          <button
-            onClick={handleSignIn}
-            disabled={true}
-            className="flex items-center gap-1 rounded bg-gray-600 px-4 py-2 text-sm"
-          >
-            <span>Conectado</span>
-            <Check />
-          </button>
-        ) : (
-          <button
-            onClick={handleSignIn}
-            className="text-ignite-500 hover:text-ignite-600 border-ignite-500 hover:border-ignite-600 flex items-center gap-1 rounded border-2 px-4 py-2 text-sm transition-all"
-          >
-            <span>Conectar</span>
-            <ArrowRight />
-          </button>
+          {isSignedId ? (
+            <button
+              onClick={handleSignIn}
+              disabled={true}
+              className="flex items-center gap-1 rounded bg-gray-600 px-4 py-2 text-sm"
+            >
+              <span>Conectado</span>
+              <Check />
+            </button>
+          ) : (
+            <button
+              onClick={handleSignIn}
+              className="text-ignite-500 hover:text-ignite-600 border-ignite-500 hover:border-ignite-600 flex items-center gap-1 rounded border-2 px-4 py-2 text-sm transition-all"
+            >
+              <span>Conectar</span>
+              <ArrowRight />
+            </button>
+          )}
+        </div>
+
+        {hasError && (
+          <p className="text-red text-center text-sm">
+            Falha ao conectar com o Google, verifique se você habilitou as
+            permissões no Google Calendar
+          </p>
         )}
+
+        <button
+          onClick={handleNextStep}
+          disabled={!isSignedId}
+          className="bg-ignite-500 hover:bg-ignite-600 flex w-full items-center justify-center gap-1 rounded-md px-4 py-2 text-gray-100 transition-all disabled:bg-gray-600"
+        >
+          <span>Próximo passo</span>
+          <ArrowRight />
+        </button>
       </div>
-
-      {hasError && (
-        <p className="text-red text-center text-sm">
-          Falha ao conectar com o Google, verifique se você habilitou as
-          permissões no Google Calendar
-        </p>
-      )}
-
-      <button
-        disabled={!isSignedId}
-        className="bg-ignite-500 hover:bg-ignite-600 flex items-center justify-center gap-1 rounded-md px-4 py-2 text-gray-100 transition-all disabled:bg-gray-600"
-      >
-        <span>Próximo passo</span>
-        <ArrowRight />
-      </button>
     </div>
   )
 }
