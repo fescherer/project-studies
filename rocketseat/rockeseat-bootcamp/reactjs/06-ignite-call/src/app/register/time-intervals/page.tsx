@@ -1,5 +1,6 @@
 'use client'
 
+import { zodResolver } from '@hookform/resolvers/zod'
 import { FormStep } from '@/components/FormStep'
 import { getWeekDays } from '@/util/get-week-days'
 import { ArrowRight } from '@phosphor-icons/react'
@@ -7,7 +8,24 @@ import { useRouter } from 'next/navigation'
 import { useFieldArray, useForm, Controller } from 'react-hook-form'
 import { z } from 'zod'
 
-const timeIntervalsFormSchema = z.object({})
+const timeIntervalsFormSchema = z.object({
+  intervals: z
+    .array(
+      z.object({
+        weekDay: z.number().min(0).max(6),
+        enabled: z.boolean(),
+        startTime: z.string(),
+        endTime: z.string(),
+      }),
+    )
+    .length(7)
+    .transform((intervals) => intervals.filter((interval) => interval.enabled))
+    .refine((intervals) => intervals.length > 0, {
+      message: 'Você precisa selecionar pelo menos um dia da semana',
+    }),
+})
+
+type TimeIntervalsFormData = z.infer<typeof timeIntervalsFormSchema>
 
 export default function Page() {
   const {
@@ -17,6 +35,7 @@ export default function Page() {
     watch,
     formState: { isSubmitting, errors },
   } = useForm({
+    resolver: zodResolver(timeIntervalsFormSchema),
     defaultValues: {
       intervals: [
         { weekDay: 0, enabled: false, startTime: '08:00', endTime: '18:00' },
@@ -44,7 +63,7 @@ export default function Page() {
 
   const intervals = watch('intervals')
 
-  async function handleSetTimeIntervals(data: any) {
+  async function handleSetTimeIntervals(data: TimeIntervalsFormData) {
     console.log(data)
   }
 
@@ -100,9 +119,13 @@ export default function Page() {
           ))}
         </form>
 
+        {errors.intervals && (
+          <span className="text-sm text-red">{errors.intervals.message}</span>
+        )}
+
         <button
           onClick={handleNextStep}
-          disabled={true}
+          disabled={isSubmitting}
           className="bg-ignite-500 hover:bg-ignite-600 flex w-full items-center justify-center gap-1 rounded-md px-4 py-2 text-gray-100 transition-all disabled:bg-gray-600"
         >
           <span>Próximo passo</span>
