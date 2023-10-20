@@ -7,6 +7,7 @@ import { ArrowRight } from '@phosphor-icons/react'
 import { useRouter } from 'next/navigation'
 import { useFieldArray, useForm, Controller } from 'react-hook-form'
 import { z } from 'zod'
+import { convertTimeStringToMinutes } from '@/util/convert-time-string-to-minutes'
 
 const timeIntervalsFormSchema = z.object({
   intervals: z
@@ -22,10 +23,32 @@ const timeIntervalsFormSchema = z.object({
     .transform((intervals) => intervals.filter((interval) => interval.enabled))
     .refine((intervals) => intervals.length > 0, {
       message: 'Você precisa selecionar pelo menos um dia da semana',
-    }),
+    })
+    .transform((intervals) => {
+      return intervals.map((interval) => {
+        return {
+          weekDay: interval.weekDay,
+          startTimeInMinutes: convertTimeStringToMinutes(interval.startTime),
+          endTimeInMinutes: convertTimeStringToMinutes(interval.endTime),
+        }
+      })
+    })
+    .refine(
+      (intervals) => {
+        return intervals.every(
+          (interval) =>
+            interval.endTimeInMinutes - 60 >= interval.startTimeInMinutes,
+        )
+      },
+      {
+        message:
+          'O horário de término deve ser pelo menos 1h distante do início.',
+      },
+    ),
 })
 
-type TimeIntervalsFormData = z.infer<typeof timeIntervalsFormSchema>
+type TimeIntervalsFormInput = z.input<typeof timeIntervalsFormSchema>
+type TimeIntervalsFormOutput = z.output<typeof timeIntervalsFormSchema>
 
 export default function Page() {
   const {
@@ -34,7 +57,7 @@ export default function Page() {
     control,
     watch,
     formState: { isSubmitting, errors },
-  } = useForm({
+  } = useForm<TimeIntervalsFormInput>({
     resolver: zodResolver(timeIntervalsFormSchema),
     defaultValues: {
       intervals: [
@@ -63,8 +86,10 @@ export default function Page() {
 
   const intervals = watch('intervals')
 
-  async function handleSetTimeIntervals(data: TimeIntervalsFormData) {
-    console.log(data)
+  async function handleSetTimeIntervals(data: unknown) {
+    const formData = data as TimeIntervalsFormOutput
+
+    console.log(formData)
   }
 
   return (
@@ -120,7 +145,7 @@ export default function Page() {
         </form>
 
         {errors.intervals && (
-          <span className="text-sm text-red">{errors.intervals.message}</span>
+          <span className="text-red text-sm">{errors.intervals.message}</span>
         )}
 
         <button
