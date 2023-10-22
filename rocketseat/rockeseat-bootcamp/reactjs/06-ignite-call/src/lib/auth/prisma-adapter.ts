@@ -4,8 +4,8 @@ import { prisma } from '../prisma'
 import { cookies } from 'next/headers'
 
 export function PrismaAdapter(
-  req: NextApiRequest,
-  res: NextApiResponse,
+  req?: NextApiRequest,
+  res?: NextApiResponse,
 ): Adapter {
   return {
     async createUser(user) {

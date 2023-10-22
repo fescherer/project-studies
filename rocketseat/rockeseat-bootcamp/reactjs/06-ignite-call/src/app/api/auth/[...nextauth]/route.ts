@@ -3,12 +3,9 @@ import { NextApiRequest, NextApiResponse } from 'next'
 import NextAuth, { NextAuthOptions } from 'next-auth'
 import GoogleProvider, { GoogleProfile } from 'next-auth/providers/google'
 
-export function buildNextAuthOptions(
-  req: NextApiRequest,
-  res: NextApiResponse,
-): NextAuthOptions {
+export function buildNextAuthOptions(): NextAuthOptions {
   return {
-    adapter: PrismaAdapter(req, res),
+    adapter: PrismaAdapter(),
     providers: [
       GoogleProvider({
         clientId: process.env.GOOGLE_CLIENT_ID ?? '',
@@ -52,9 +49,9 @@ export function buildNextAuthOptions(
 }
 
 export async function GET(req: NextApiRequest, res: NextApiResponse) {
-  return NextAuth(req, res, buildNextAuthOptions(req, res))
+  return NextAuth(req, res, buildNextAuthOptions())
 }
 
 export async function POST(req: NextApiRequest, res: NextApiResponse) {
-  return NextAuth(req, res, buildNextAuthOptions(req, res))
+  return NextAuth(req, res, buildNextAuthOptions())
 }

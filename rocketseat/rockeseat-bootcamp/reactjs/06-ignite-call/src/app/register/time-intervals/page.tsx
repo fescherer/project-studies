@@ -8,6 +8,7 @@ import { useRouter } from 'next/navigation'
 import { useFieldArray, useForm, Controller } from 'react-hook-form'
 import { z } from 'zod'
 import { convertTimeStringToMinutes } from '@/util/convert-time-string-to-minutes'
+import { api } from '@/lib/axios'
 
 const timeIntervalsFormSchema = z.object({
   intervals: z
@@ -87,9 +88,13 @@ export default function Page() {
   const intervals = watch('intervals')
 
   async function handleSetTimeIntervals(data: unknown) {
-    const formData = data as TimeIntervalsFormOutput
+    const { intervals } = data as TimeIntervalsFormOutput
 
-    console.log(formData)
+    console.log(intervals)
+
+    await api.post('/users/time-intervals', {
+      intervals,
+    })
   }
 
   return (
@@ -104,11 +109,11 @@ export default function Page() {
 
       <FormStep step={4} currentStep={2} />
 
-      <div className="flex w-full flex-col gap-4 rounded bg-gray-800 p-4">
-        <form
-          onSubmit={handleSubmit(handleSetTimeIntervals)}
-          className="border"
-        >
+      <form
+        onSubmit={handleSubmit(handleSetTimeIntervals)}
+        className="flex w-full flex-col gap-4 rounded bg-gray-800 p-4"
+      >
+        <div className="border">
           {fields.map((field, index) => (
             <div key={field.id} className="flex gap-2 border-b-2 p-2">
               <Controller
@@ -142,21 +147,21 @@ export default function Page() {
               />
             </div>
           ))}
-        </form>
+        </div>
 
         {errors.intervals && (
           <span className="text-red text-sm">{errors.intervals.message}</span>
         )}
 
         <button
-          onClick={handleNextStep}
+          // onClick={handleNextStep}
           disabled={isSubmitting}
           className="bg-ignite-500 hover:bg-ignite-600 flex w-full items-center justify-center gap-1 rounded-md px-4 py-2 text-gray-100 transition-all disabled:bg-gray-600"
         >
           <span>Próximo passo</span>
           <ArrowRight />
         </button>
-      </div>
+      </form>
     </div>
   )
 }
