@@ -1,6 +1,7 @@
 'use client'
 
 import { FormStep } from '@/components/FormStep'
+import { SubmitButton } from '@/components/SubmitButton'
 import { ArrowRight, Check } from '@phosphor-icons/react'
 import { signIn, useSession } from 'next-auth/react'
 import { useRouter, useSearchParams } from 'next/navigation'
@@ -65,15 +66,11 @@ export default function Page() {
             permissões no Google Calendar
           </p>
         )}
-
-        <button
-          onClick={handleNextStep}
+        <SubmitButton
           disabled={!isSignedId}
-          className="bg-ignite-500 hover:bg-ignite-600 flex w-full items-center justify-center gap-1 rounded-md px-4 py-2 text-gray-100 transition-all disabled:bg-gray-600"
-        >
-          <span>Próximo passo</span>
-          <ArrowRight />
-        </button>
+          handleSubmit={handleNextStep}
+          text="Próximo passo"
+        />
       </div>
     </div>
   )

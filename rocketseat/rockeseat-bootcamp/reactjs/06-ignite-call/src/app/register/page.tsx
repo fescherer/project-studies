@@ -1,9 +1,9 @@
 'use client'
 
 import { FormStep } from '@/components/FormStep'
+import { SubmitButton } from '@/components/SubmitButton'
 import { api } from '@/lib/axios'
 import { zodResolver } from '@hookform/resolvers/zod'
-import { ArrowRight } from '@phosphor-icons/react'
 import { AxiosError } from 'axios'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useEffect } from 'react'
@@ -103,13 +103,7 @@ export default function Page() {
           )}
         </div>
 
-        <button
-          disabled={isSubmitting}
-          className="bg-ignite-500 hover:bg-ignite-600 flex items-center justify-center gap-1 rounded-md px-4 py-2 text-gray-100 transition-all"
-        >
-          <span>Próximo passo</span>
-          <ArrowRight />
-        </button>
+        <SubmitButton disabled={isSubmitting} text="Próximo passo" />
       </form>
     </div>
   )

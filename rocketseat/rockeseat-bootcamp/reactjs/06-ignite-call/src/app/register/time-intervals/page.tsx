@@ -3,12 +3,12 @@
 import { zodResolver } from '@hookform/resolvers/zod'
 import { FormStep } from '@/components/FormStep'
 import { getWeekDays } from '@/util/get-week-days'
-import { ArrowRight } from '@phosphor-icons/react'
 import { useRouter } from 'next/navigation'
 import { useFieldArray, useForm, Controller } from 'react-hook-form'
 import { z } from 'zod'
 import { convertTimeStringToMinutes } from '@/util/convert-time-string-to-minutes'
 import { api } from '@/lib/axios'
+import { SubmitButton } from '@/components/SubmitButton'
 
 const timeIntervalsFormSchema = z.object({
   intervals: z
@@ -75,7 +75,7 @@ export default function Page() {
 
   const router = useRouter()
   function handleNextStep() {
-    router.push('/register/time-intervals')
+    router.push('/register/update-profile')
   }
 
   const weekDays = getWeekDays()
@@ -153,14 +153,11 @@ export default function Page() {
           <span className="text-red text-sm">{errors.intervals.message}</span>
         )}
 
-        <button
-          // onClick={handleNextStep}
+        <SubmitButton
           disabled={isSubmitting}
-          className="bg-ignite-500 hover:bg-ignite-600 flex w-full items-center justify-center gap-1 rounded-md px-4 py-2 text-gray-100 transition-all disabled:bg-gray-600"
-        >
-          <span>Próximo passo</span>
-          <ArrowRight />
-        </button>
+          handleSubmit={handleNextStep}
+          text="Próximo passo"
+        />
       </form>
     </div>
   )
