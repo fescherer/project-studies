@@ -4,5 +4,5 @@
 npx prisma studio
 
 
-
+npx prisma generate
 

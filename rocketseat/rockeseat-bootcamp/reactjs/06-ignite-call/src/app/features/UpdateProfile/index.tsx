@@ -1,9 +1,11 @@
 'use client'
 
 import { SubmitButton } from '@/components/SubmitButton'
+import { api } from '@/lib/axios'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { User } from 'next-auth'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 
@@ -18,6 +20,7 @@ type UpdateProfileFeatureProps = {
 }
 
 export function UpdateProfileFeature({ user }: UpdateProfileFeatureProps) {
+  const router = useRouter()
   const {
     register,
     handleSubmit,
@@ -27,7 +30,11 @@ export function UpdateProfileFeature({ user }: UpdateProfileFeatureProps) {
   })
 
   async function handleUpdateProfile(data: UpdateProfileData) {
-    console.log(data)
+    await api.put('/users/profile', {
+      bio: data.bio,
+    })
+
+    // await router.push(`/schedule/${user?.username}`)
   }
 
   return (
