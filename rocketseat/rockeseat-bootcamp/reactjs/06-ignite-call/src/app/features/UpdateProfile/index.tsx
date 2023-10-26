@@ -34,7 +34,7 @@ export function UpdateProfileFeature({ user }: UpdateProfileFeatureProps) {
       bio: data.bio,
     })
 
-    // await router.push(`/schedule/${user?.username}`)
+    await router.push(`/schedule/${user?.username}`)
   }
 
   return (
