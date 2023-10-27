@@ -1,3 +1,4 @@
+import { ScheduleForm } from '@/components/ScheduleForm'
 import { prisma } from '../../../lib/prisma'
 import Image from 'next/image'
 
@@ -32,6 +33,8 @@ export default async function Schedule({ params }: ScheduleProps) {
         <span>{user.name}</span>
         <p>{user.bio}</p>
       </div>
+
+      <ScheduleForm />
     </div>
   )
 }
