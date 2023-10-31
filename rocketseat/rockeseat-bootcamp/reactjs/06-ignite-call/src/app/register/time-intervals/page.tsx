@@ -9,6 +9,8 @@ import { z } from 'zod'
 import { convertTimeStringToMinutes } from '@/util/convert-time-string-to-minutes'
 import { api } from '@/lib/axios'
 import { SubmitButton } from '@/components/SubmitButton'
+import * as Checkbox from '@radix-ui/react-checkbox'
+import { Check } from 'phosphor-react'
 
 const timeIntervalsFormSchema = z.object({
   intervals: z
@@ -78,7 +80,7 @@ export default function Page() {
     router.push('/register/update-profile')
   }
 
-  const weekDays = getWeekDays()
+  const weekDays = getWeekDays({})
 
   const { fields } = useFieldArray({
     control,
@@ -121,13 +123,17 @@ export default function Page() {
                 control={control}
                 render={({ field }) => {
                   return (
-                    <input
-                      // onCheckedChange={(checked) =>
-                      //   field.onChange(checked === true)
-                      onChange={(checked) => field.onChange(checked)}
-                      type="checkbox"
+                    <Checkbox.Root
+                      className="data-[state=checked]:bg-ignite-500 focus:border-ignite-600 data-[state=checked]:border-ignite-600 flex h-6 w-6 cursor-pointer items-center justify-center overflow-hidden rounded border-2 border-gray-900 bg-gray-900"
+                      onCheckedChange={(checked) =>
+                        field.onChange(checked === true)
+                      }
                       checked={field.value}
-                    />
+                    >
+                      <Checkbox.Indicator className="h-4 w-4 text-white">
+                        <Check weight="bold" />
+                      </Checkbox.Indicator>
+                    </Checkbox.Root>
                   )
                 }}
               />
@@ -135,6 +141,7 @@ export default function Page() {
               <span className="text-md flex-1">{weekDays[field.weekDay]}</span>
               <input
                 type="time"
+                className="focus:border-ignite-500 box-border flex cursor-text items-center rounded border-2 border-gray-900 bg-gray-900 px-2 py-1 disabled:cursor-not-allowed disabled:opacity-50"
                 step={60}
                 disabled={intervals[index].enabled === false}
                 {...register(`intervals.${index}.startTime`)}
@@ -142,6 +149,7 @@ export default function Page() {
               <input
                 type="time"
                 step={60}
+                className="focus:border-ignite-500 box-border flex cursor-text items-center rounded border-2 border-gray-900 bg-gray-900 px-2 py-1 disabled:cursor-not-allowed disabled:opacity-50"
                 disabled={intervals[index].enabled === false}
                 {...register(`intervals.${index}.endTime`)}
               />

@@ -10,13 +10,12 @@ export default async function UpdateProfile() {
       <header>
         <h2 className="text-xl font-bold text-gray-100">Quase lá</h2>
         <p>
-          Defina o intervalo de horários que você está disponível em cada dia da
-          semana.
+          Precisamos de algumas informações para criar seu perfil! Ah, você pode
+          editar essas informações depois.
         </p>
       </header>
 
       <FormStep step={4} currentStep={3} />
-      {session?.user?.email ?? 'sem nada'}
       <UpdateProfileFeature user={session?.user} />
     </div>
   )

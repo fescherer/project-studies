@@ -39,10 +39,10 @@ export function UpdateProfileFeature({ user }: UpdateProfileFeatureProps) {
 
   return (
     <form
-      className="mt-2 flex flex-col gap-2"
+      className="flex w-full flex-col gap-4 rounded border border-gray-600 bg-gray-800 p-4 text-sm"
       onSubmit={handleSubmit(handleUpdateProfile)}
     >
-      <label className="flex flex-col gap-1">
+      <label className="flex flex-col items-center gap-1">
         <p>Foto de perfil</p>
         <Image
           className="border-ignite-500 rounded-full border"
@@ -55,7 +55,10 @@ export function UpdateProfileFeature({ user }: UpdateProfileFeatureProps) {
 
       <label>
         <p>Sobre você</p>
-        <textarea {...register('bio')} />
+        <textarea
+          className="focus:border-ignite-600 box-border min-h-[80px] w-full resize-y rounded border-2 border-gray-900 bg-gray-900 px-4 py-3 text-sm text-white placeholder:text-gray-400 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          {...register('bio')}
+        />
         <p>
           Fale um pouco sobre você. Isto será exibido em sua página pessoal.
         </p>
