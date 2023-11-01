@@ -14,7 +14,7 @@
   </a>
 
 <h3 align="center">Project Studies</h3>
-
+ 
 <p align="center">
 
 A repository containing projects made with help of instructors.
