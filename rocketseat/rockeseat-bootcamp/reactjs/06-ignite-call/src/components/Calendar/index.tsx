@@ -33,7 +33,7 @@ export function Calendar() {
             ))}
           </tr>
         </thead>
-        <tbody className='block leading-3 text-gray-800 before:content-["."]'>
+        <tbody className='block w-full leading-3 text-gray-800 before:content-["."]'>
           <tr>
             <td className="box-border"></td>
             <td className="box-border"></td>
